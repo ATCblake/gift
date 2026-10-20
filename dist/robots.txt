@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://pilotgiftguide.com/sitemap.xml
+Sitemap: https://www.pilotgiftguide.com/sitemap.xml

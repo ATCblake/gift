@@ -1,6 +1,6 @@
 # Pilot Gift Guide
 
-Native, dependency-free static website for https://pilotgiftguide.com. Source repository: https://github.com/ATCblake/gift. Hosting target: Vercel, ATC team. Domain registrar: GoDaddy.
+Native, dependency-free static website for https://www.pilotgiftguide.com. Source repository: https://github.com/ATCblake/gift. Hosting target: Vercel, ATC team. Domain registrar: GoDaddy.
 
 ## Current content
 

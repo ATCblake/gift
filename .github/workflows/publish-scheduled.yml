@@ -4,6 +4,11 @@ on:
     # 08:17 PDT / 07:17 PST; deliberately away from the top of the hour.
     - cron: '17 15 * * *'
   workflow_dispatch:
+    inputs:
+      force:
+        description: Test the connection outside the publishing window (does not reveal future posts)
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -22,4 +27,5 @@ jobs:
       - name: Request a Vercel build of the current main branch
         run: node scripts/scheduled-publish.mjs
         env:
+          FORCE_DEPLOY: ${{ inputs.force == true && 'true' || 'false' }}
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}

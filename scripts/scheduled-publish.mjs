@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-if(today<'2026-10-21'||today>'2026-12-20'){console.log('Outside the October 21–December 20 publishing window; no deployment requested.');process.exit(0)}
+if(process.env.FORCE_DEPLOY!=='true'&&(today<'2026-10-21'||today>'2026-12-20')){console.log('Outside the October 21–December 20 publishing window; no deployment requested.');process.exit(0)}
 const posts=JSON.parse(fs.readFileSync('posts.json','utf8'));
 const todays=posts.filter(p=>p.publish_date===today&&p.status==='ready');
 if(!todays.length)console.log('::warning::No ready article is queued for today. See editorial-calendar.html; planned entries are not automatically written.');
