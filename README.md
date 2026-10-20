@@ -2,6 +2,12 @@
 
 Native, dependency-free static website for https://www.pilotgiftguide.com. Source repository: https://github.com/ATCblake/gift. Hosting target: Vercel, ATC team. Domain registrar: GoDaddy.
 
+## Deployment status — October 20, 2026
+
+Live: https://www.pilotgiftguide.com (Vercel project `atc15/pilot-gift-guide`). The apex redirects to www. GoDaddy A and www CNAME records are connected; unrelated records were preserved. HTTPS, a category, a guide, robots, sitemap and a 404 response were verified.
+
+The daily publishing workflow is committed, but its deploy-hook connection is awaiting user confirmation. Search Console verification and sitemap submission are not configured yet.
+
 ## Current content
 
 - 18 original launch guides across six categories.
