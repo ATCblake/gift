@@ -1,0 +1,25 @@
+name: Publish scheduled articles
+on:
+  schedule:
+    # 08:17 PDT / 07:17 PST; deliberately away from the top of the hour.
+    - cron: '17 15 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: scheduled-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+      - name: Request a Vercel build of the current main branch
+        run: node scripts/scheduled-publish.mjs
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}

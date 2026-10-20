@@ -1,0 +1,9 @@
+.DS_Store
+.openai/
+.vercel/
+node_modules/
+.env*
+!\.env.example
+*.tar.gz
+*.zip
+research/*-raw.html
