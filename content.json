@@ -1,79 +1,871 @@
 {
   "products": [
-    {"id":"concorde","name":"LEGO Icons Concorde","category":"For the collector","recipients":["avgeek","pilot"],"type":"display","why":"An evening project that becomes a permanent part of their aviation corner. A strong choice for someone who loves airliners as much as flying them.","check":"Allow a long display shelf: the finished model measures 41.5 inches. Ages 18+."},
-    {"id":"light","name":"Flight Gear Aviator’s Light","category":"A useful little extra","recipients":["student","pilot"],"type":"gear","why":"A compact light with separate red and white controls. It makes sense for the person who likes keeping small, useful tools in their flight bag.","check":"Ask what light they already carry; this is an accessory, not a replacement for required equipment."},
-    {"id":"skyhawk","name":"Cessna 172 Skyhawk model","category":"A milestone keepsake","recipients":["student","pilot","avgeek"],"type":"display","why":"The best model is often the aircraft with a story behind it. This mahogany Skyhawk is especially thoughtful for someone who learned to fly a Cessna 172.","check":"Confirm their aircraft type. A 172 and a 182 are different airplanes, even if they look similar."},
-    {"id":"pen","name":"SKILCRAFT B3 Aviator pen","category":"Under $25","recipients":["student","pilot"],"type":"gear","why":"Black ink, red ink and a pencil in one everyday tool. An uncomplicated addition to a practical gift bundle, especially with a handwritten note.","check":"Check whether they prefer paper notes; an all-digital pilot may get less use from it."},
-    {"id":"bag","name":"Flight Gear Stealth Bag","category":"For their next flight","recipients":["student","pilot"],"type":"gear","why":"A flight bag is a gift they can use beyond the holidays. This compact backpack-style option is worth a look when their current setup is an overflowing ordinary bag.","check":"Compare the listed dimensions with their headset, tablet and usual load before choosing."},
-    {"id":"ornament","name":"Blue Angels jet ornament","category":"A little holiday aviation","recipients":["avgeek","pilot","student"],"type":"display","why":"A small nod to a favorite airshow team. Add it to a larger gift, or make it the start of an aviation ornament tradition.","check":"Best for a Blue Angels fan; a favorite aircraft or team makes a small gift feel personal."},
-    {"id":"kneeboard","name":"Flight Gear rotating kneeboard","category":"For the organized pilot","recipients":["student","pilot"],"type":"gear","why":"A practical way to keep a compatible iPad in reach. It is most useful when you already know the pilot wants a kneeboard rather than a mounted tablet.","check":"Confirm the exact iPad model, case and preferred cockpit setup with the retailer."},
-    {"id":"logbook","name":"ASA pilot logbook","category":"For a first lesson","recipients":["student"],"type":"gear","why":"An affordable way to mark the start of flight training. Pair it with a note about the journey ahead, rather than filling in any flight-record pages yourself.","check":"Check with their instructor first: they may already have a logbook or use a different format."},
-    {"id":"cessna-cap","name":"Cessna patch trucker cap","category":"Off-duty aviation","recipients":["avgeek","pilot","student"],"type":"wear","why":"A casual option for the Cessna enthusiast who already owns the flight gear they need. The navy-and-scarlet color scheme makes it easy to wear away from the airport.","check":"Confirm they like caps and Cessna; a familiar logo is more personal than a random airplane."},
-    {"id":"cessna-shirt","name":"Cessna 182 Skylane tee","category":"Wear their favorite airplane","recipients":["pilot","avgeek"],"type":"wear","why":"A good match for someone with a connection to the Skylane. Aircraft-specific clothing works best when the reference is meaningful to the person receiving it.","check":"Choose the right size and check the seller’s return policy before ordering."},
-    {"id":"bag-tag","name":"Pro Crew luggage tag","category":"A small travel upgrade","recipients":["pilot"],"type":"gear","why":"A low-cost gift for a working pilot’s luggage. It is especially easy to combine with a card or another small item when you want something useful to unwrap.","check":"A CREW tag is a bag accessory, not airport identification or an access credential."},
-    {"id":"bose","name":"Bose A30 aviation headset","category":"The choose-together gift","recipients":["pilot","student"],"type":"gear","why":"A serious equipment gift for someone who has specifically asked for an A30. Let the pilot choose the connection and configuration rather than making this an expensive surprise.","check":"Confirm aircraft plug, power arrangement and fit. Listed price is for the linked configuration."},
-    {"id":"lightspeed","name":"Lightspeed Zulu 3 headset","category":"For the upgrade wishlist","recipients":["pilot","student"],"type":"gear","why":"Another premium headset to consider when it is already on their wishlist. A gift contribution can be more thoughtful than guessing between competing headset preferences.","check":"Choose the correct connection and have the recipient check fit and return terms."},
-    {"id":"gift-card","name":"Sporty’s email gift card","category":"Let the pilot choose","recipients":["pilot","student","avgeek"],"type":"digital","price_label":"Choose an amount","why":"Useful when their wishlist gets technical—or the shipping window has closed. It lets the recipient choose the exact accessory, size or equipment version they need.","check":"Check delivery timing and available values at checkout. Gift cards have their own redemption terms."}
+    {
+      "id": "concorde",
+      "name": "LEGO Icons Concorde",
+      "category": "For the collector",
+      "recipients": [
+        "avgeek",
+        "pilot"
+      ],
+      "type": "display",
+      "why": "An evening project that becomes a permanent part of their aviation corner. A strong choice for someone who loves airliners as much as flying them.",
+      "check": "Allow a long display shelf: the finished model measures 41.5 inches. Ages 18+."
+    },
+    {
+      "id": "light",
+      "name": "Flight Gear Aviator’s Light",
+      "category": "A useful little extra",
+      "recipients": [
+        "student",
+        "pilot"
+      ],
+      "type": "gear",
+      "why": "A compact light with separate red and white controls. It makes sense for the person who likes keeping small, useful tools in their flight bag.",
+      "check": "Ask what light they already carry; this is an accessory, not a replacement for required equipment."
+    },
+    {
+      "id": "skyhawk",
+      "name": "Cessna 172 Skyhawk model",
+      "category": "A milestone keepsake",
+      "recipients": [
+        "student",
+        "pilot",
+        "avgeek"
+      ],
+      "type": "display",
+      "why": "The best model is often the aircraft with a story behind it. This mahogany Skyhawk is especially thoughtful for someone who learned to fly a Cessna 172.",
+      "check": "Confirm their aircraft type. A 172 and a 182 are different airplanes, even if they look similar."
+    },
+    {
+      "id": "pen",
+      "name": "SKILCRAFT B3 Aviator pen",
+      "category": "Under $25",
+      "recipients": [
+        "student",
+        "pilot"
+      ],
+      "type": "gear",
+      "why": "Black ink, red ink and a pencil in one everyday tool. An uncomplicated addition to a practical gift bundle, especially with a handwritten note.",
+      "check": "Check whether they prefer paper notes; an all-digital pilot may get less use from it."
+    },
+    {
+      "id": "bag",
+      "name": "Flight Gear Stealth Bag",
+      "category": "For their next flight",
+      "recipients": [
+        "student",
+        "pilot"
+      ],
+      "type": "gear",
+      "why": "A flight bag is a gift they can use beyond the holidays. This compact backpack-style option is worth a look when their current setup is an overflowing ordinary bag.",
+      "check": "Compare the listed dimensions with their headset, tablet and usual load before choosing."
+    },
+    {
+      "id": "ornament",
+      "name": "Blue Angels jet ornament",
+      "category": "A little holiday aviation",
+      "recipients": [
+        "avgeek",
+        "pilot",
+        "student"
+      ],
+      "type": "display",
+      "why": "A small nod to a favorite airshow team. Add it to a larger gift, or make it the start of an aviation ornament tradition.",
+      "check": "Best for a Blue Angels fan; a favorite aircraft or team makes a small gift feel personal."
+    },
+    {
+      "id": "kneeboard",
+      "name": "Flight Gear rotating kneeboard",
+      "category": "For the organized pilot",
+      "recipients": [
+        "student",
+        "pilot"
+      ],
+      "type": "gear",
+      "why": "A practical way to keep a compatible iPad in reach. It is most useful when you already know the pilot wants a kneeboard rather than a mounted tablet.",
+      "check": "Confirm the exact iPad model, case and preferred cockpit setup with the retailer."
+    },
+    {
+      "id": "logbook",
+      "name": "ASA pilot logbook",
+      "category": "For a first lesson",
+      "recipients": [
+        "student"
+      ],
+      "type": "gear",
+      "why": "An affordable way to mark the start of flight training. Pair it with a note about the journey ahead, rather than filling in any flight-record pages yourself.",
+      "check": "Check with their instructor first: they may already have a logbook or use a different format."
+    },
+    {
+      "id": "cessna-cap",
+      "name": "Cessna patch trucker cap",
+      "category": "Off-duty aviation",
+      "recipients": [
+        "avgeek",
+        "pilot",
+        "student"
+      ],
+      "type": "wear",
+      "why": "A casual option for the Cessna enthusiast who already owns the flight gear they need. The navy-and-scarlet color scheme makes it easy to wear away from the airport.",
+      "check": "Confirm they like caps and Cessna; a familiar logo is more personal than a random airplane."
+    },
+    {
+      "id": "cessna-shirt",
+      "name": "Cessna 182 Skylane tee",
+      "category": "Wear their favorite airplane",
+      "recipients": [
+        "pilot",
+        "avgeek"
+      ],
+      "type": "wear",
+      "why": "A good match for someone with a connection to the Skylane. Aircraft-specific clothing works best when the reference is meaningful to the person receiving it.",
+      "check": "Choose the right size and check the seller’s return policy before ordering."
+    },
+    {
+      "id": "bag-tag",
+      "name": "Pro Crew luggage tag",
+      "category": "A small travel upgrade",
+      "recipients": [
+        "pilot"
+      ],
+      "type": "gear",
+      "why": "A low-cost gift for a working pilot’s luggage. It is especially easy to combine with a card or another small item when you want something useful to unwrap.",
+      "check": "A CREW tag is a bag accessory, not airport identification or an access credential."
+    },
+    {
+      "id": "bose",
+      "name": "Bose A30 aviation headset",
+      "category": "The choose-together gift",
+      "recipients": [
+        "pilot",
+        "student"
+      ],
+      "type": "gear",
+      "why": "A serious equipment gift for someone who has specifically asked for an A30. Let the pilot choose the connection and configuration rather than making this an expensive surprise.",
+      "check": "Confirm aircraft plug, power arrangement and fit. Listed price is for the linked configuration."
+    },
+    {
+      "id": "lightspeed",
+      "name": "Lightspeed Zulu 3 headset",
+      "category": "For the upgrade wishlist",
+      "recipients": [
+        "pilot",
+        "student"
+      ],
+      "type": "gear",
+      "why": "Another premium headset to consider when it is already on their wishlist. A gift contribution can be more thoughtful than guessing between competing headset preferences.",
+      "check": "Choose the correct connection and have the recipient check fit and return terms."
+    },
+    {
+      "id": "gift-card",
+      "name": "Sporty’s email gift card",
+      "category": "Let the pilot choose",
+      "recipients": [
+        "pilot",
+        "student",
+        "avgeek"
+      ],
+      "type": "digital",
+      "price_label": "Choose an amount",
+      "why": "Useful when their wishlist gets technical—or the shipping window has closed. It lets the recipient choose the exact accessory, size or equipment version they need.",
+      "check": "Check delivery timing and available values at checkout. Gift cards have their own redemption terms."
+    }
   ],
   "guides": [
     {
-      "slug":"gifts-for-student-pilots","title":"Gifts for student pilots, from first lesson to first solo","short":"For the student pilot","description":"Practical student pilot gift ideas, with advice on logbooks, kneeboards, flight bags and what to ask their instructor before buying.","intro":"The best gift for a student pilot fits the stage they are at. Someone booking a first lesson needs different things from someone preparing for a checkride. Start with one question: what has their instructor actually recommended?","picks":["logbook","pen","light","bag","kneeboard","skyhawk"],
-      "sections":[
-        ["Start with the instructor’s list","Before buying training equipment, find out what the school already supplies and what the instructor expects the student to bring. A duplicate logbook or an incompatible tablet holder is less helpful than a simple gift card. You do not need to understand every piece of equipment: ask the student for a photo or link to their list. If you want to keep the surprise, ask which category is still missing without choosing a model yet."],
-        ["For the first few lessons","A modest, practical gift is often enough. A logbook can mark the beginning of training if the school has not already supplied one. A pen is easy to add, and a compact light may be useful as the student builds a flight bag. Keep a gift receipt. Avoid buying a complete bundle simply because it says student pilot; the school may have a different syllabus, preferred materials or equipment requirements."],
-        ["For someone already training","Pay attention to what they carry. A compact flight bag can help if everything currently goes into a general backpack. A kneeboard makes sense only if it fits their exact tablet and they prefer that setup in the cockpit. Ask about the tablet case as well as the iPad model. A headset is a bigger decision: make it a choose-together gift with the student and instructor instead of guessing at connectors or fit."],
-        ["Make a milestone gift personal","For a first solo or certificate, the story can matter more than the price. A model of the aircraft they actually flew is a better match than a more expensive model of an unrelated airplane. Confirm the type and variant before buying. Add a handwritten note with the date and the moment you are celebrating. For a flight lesson contribution, arrange payment directly with the school and confirm how credit is applied and whether it expires."],
-        ["What should you avoid?","Do not assume that a flight simulator accessory, training course or navigation subscription matches their instructor’s plan. Ask first. A gift should support training without creating a second system the student has to learn. If you cannot verify compatibility, choose a keepsake or a retailer gift card and let them select their own equipment."]
+      "slug": "best-aviation-headsets",
+      "title": "Best aviation headsets to consider as a gift: Bose A30 vs. Zulu 3",
+      "short": "Best aviation headsets",
+      "category": "headsets",
+      "picks": [
+        "bose",
+        "lightspeed",
+        "gift-card"
+      ],
+      "intro": "Compare two premium aviation headset candidates by budget, configuration and gift suitability. The best choice starts with what the pilot actually wants.",
+      "description": "Compare two premium aviation headset candidates by budget, configuration and gift suitability. The best choice starts with what the pilot actually wants.",
+      "sections": [
+        [
+          "Our short answer",
+          "Choose the Bose A30 if it is the exact headset on the pilot’s wishlist and the $1,299 listed price fits your budget. Put the Lightspeed Zulu 3 on the shortlist if you want to discuss a premium ANR headset at a lower listed price of $949. Those are research-based recommendations for different buying situations, not results from a listening test. We have not worn these headsets or compared their noise reduction in an aircraft. Neither is automatically the best headset for every pilot."
+        ],
+        [
+          "Bose A30: the premium wishlist candidate",
+          "The linked Bose A30 configuration uses dual GA plugs, battery power and Bluetooth. Its listing describes three user-selectable noise-reduction modes. Those details make a useful checklist for a conversation with the recipient, but they cannot tell you whether the fit works with that person’s glasses or head shape. Ask them to confirm the exact version and whether they have tried it. Buying the requested model is more valuable than choosing a different configuration because its listing looks similar."
+        ],
+        [
+          "Lightspeed Zulu 3: the lower-cost candidate in this comparison",
+          "The Zulu 3 listing describes ANR and Bluetooth, with GA and helicopter plug choices. At the prices checked for this guide, it costs $350 less than the A30. That difference is meaningful if the recipient likes both options; it is not proof of equal performance. Check the current model lineup before paying, too. A newer model, sale or bundle can change the value comparison, and an older model should not be bought solely because this article mentions it."
+        ],
+        [
+          "What matters more than a ranking",
+          "Verify connector, power arrangement, fit, intended aircraft and return conditions. Ask whether the pilot wants a replacement for daily use or a spare for passengers. Those are different purchases. A gift receipt helps, but a restrictive return window may run out before the pilot has a chance to try the headset. Keep the original packaging and agree on when the recipient will evaluate it."
+        ],
+        [
+          "When the best headset gift is a contribution",
+          "If the exact choice is uncertain, offer a fixed contribution or shop together. State whether the gift covers the headset alone or the delivered total. This keeps a major purchase exciting without turning your guess into their equipment problem. A modest note celebrating a milestone can accompany the contribution; there is no need to buy an unrelated cheap headset just to have a box to wrap."
+        ]
+      ],
+      "sources": [
+        "https://www.pilotmall.com/products/bose-a30-anr-aviation-headset-battery-powered-with-bluetooth",
+        "https://www.pilotmall.com/products/lightspeed-new-zulu-anr-headset",
+        "https://www.sportys.com/sporty-s-email-gift-card.html"
+      ],
+      "comparison": {
+        "headings": [
+          "Candidate",
+          "Listed price",
+          "Why consider it",
+          "Check first"
+        ],
+        "rows": [
+          [
+            "Bose A30",
+            "$1,299",
+            "Premium wishlist gift; selectable ANR modes",
+            "Exact connector, power and fit"
+          ],
+          [
+            "Lightspeed Zulu 3",
+            "$949",
+            "Lower listed price in this comparison",
+            "Plug choice, fit and current alternatives"
+          ],
+          [
+            "Contribution",
+            "Your chosen amount",
+            "Recipient chooses their equipment",
+            "What your contribution covers"
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "best-aviation-toys-and-models",
+      "title": "Best aviation toys and models: choose for play, building or display",
+      "short": "Best aviation toys & models",
+      "category": "toys-models",
+      "picks": [
+        "concorde",
+        "skyhawk",
+        "ornament"
+      ],
+      "intro": "Find an aviation gift that matches how the recipient enjoys airplanes: imaginative play, a satisfying build or a model of their favorite aircraft.",
+      "description": "Find an aviation gift that matches how the recipient enjoys airplanes: imaginative play, a satisfying build or a model of their favorite aircraft.",
+      "sections": [
+        [
+          "Start with what happens after unwrapping",
+          "A beautiful model can be the wrong gift for a child who wants to fly it around the room. A complex building set can be the wrong gift for an adult who wants something ready for a shelf. Decide whether the gift is for play, construction or display before comparing prices. That single decision narrows the field more usefully than searching for the most impressive airplane photo."
+        ],
+        [
+          "For a younger builder: LEGO City Passenger Jet",
+          "LEGO’s Passenger Jet 60492 is listed for ages 4+, with 118 pieces and a $29.99 price when checked. It is a starting point for a child who enjoys building and pretend airport play. Use the manufacturer’s age guidance and warnings, and ask a parent whether small pieces are suitable for the household. The official product page is linked in our sources below. We have not play-tested the set or assessed its durability."
+        ],
+        [
+          "For an adult builder: LEGO Icons Concorde",
+          "The 2,083-piece Concorde is an adult-oriented project with an 18+ recommendation. Our listed price is $199.99. The appeal is both the build and the aircraft it becomes, so it is best suited to someone who enjoys following detailed instructions. Check the finished dimensions against the intended display space. Do not treat the age recommendation as a challenge for a younger child or assume every aviation fan wants a multi-session project."
+        ],
+        [
+          "For a ready-made display: a meaningful aircraft model",
+          "The Cessna 172 Skyhawk mahogany model is a candidate for someone with a connection to that airplane. Perhaps it resembles the type they trained in or remember from a first flight. Verify the variant, scale, finish and stand before ordering. A display model is not automatically a toy, and delicate parts may not tolerate handling. The right aircraft connection usually matters more than simply buying the largest model."
+        ],
+        [
+          "For a small seasonal gift: an aviation ornament",
+          "An ornament can work when the recipient has little shelf space or already owns several models. The Blue Angels jet ornament is a small option for someone who likes the team. Choose it for that connection rather than as a generic symbol for every pilot. Check dimensions and material, and keep decorative objects separate from toys intended for children."
+        ]
+      ],
+      "sources": [
+        "https://www.lego.com/en-us/product/concorde-10318",
+        "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models",
+        "https://www.pilotmall.com/products/kurt-adler-4-5-navy-blue-angeles-jet-ornament",
+        "https://www.lego.com/en-us/product/passenger-jet-60492"
       ]
     },
     {
-      "slug":"gifts-for-pilots-who-have-everything","title":"What do you get the pilot who has everything?","short":"For the pilot who has everything","description":"Thoughtful gifts for pilots who already own their gear: aircraft models, building projects, aviation listening and meaningful personal details.","intro":"When a pilot has their equipment exactly how they like it, another gadget can be the wrong answer. Look for something that celebrates why they love aviation: a particular aircraft, a favorite airshow or the pleasure of listening to a busy airport.","picks":["concorde","skyhawk","ornament","cessna-cap","gift-card"],
-      "sections":[
-        ["Buy for the story, not the equipment list","A pilot who owns a headset, flight bag and tablet mount may not want replacements. Instead, ask what airplane they learned in, what aircraft they dream of flying or which airshow they return to. Those answers lead to more personal gifts. You can often find the clues in photographs, the airplane they point out at an airport or the model already sitting on their desk."],
-        ["Give them a project","The LEGO Icons Concorde turns an interest in airplanes into something to build. It suits an adult who enjoys the making as much as the finished object. Check the available display space first: the completed model is more than three feet long. It may be a wonderful weekend project for someone with a dedicated aviation shelf and a poor choice for someone who travels constantly and has little room at home."],
-        ["Choose the aircraft they remember","A Cessna 172 model can have a very different meaning to someone who trained in one than to someone whose flying began in a Piper. Confirm the aircraft type before ordering, and consider whether the color scheme or variant matters to them. A model does not have to match every detail to be meaningful, but your note should explain the connection rather than present it as a replica of their exact airplane."],
-        ["Give them aviation between flights","For someone who enjoys following flights from home, the ATC app is another way to spend time with aviation. It offers live air traffic control listening and playback. Visit ATC.com to check the current app and access options. Pilot Gift Guide is produced by the team behind ATC, so this is our own product recommendation. We do not present it as an independent review or claim that it replaces flight instruction."],
-        ["A small gift can still be the right gift","An ornament tied to their favorite airshow team or a cap from an aircraft brand they love can work better than an expensive technical item. If they truly want nothing, a note about a shared aviation memory may be the centerpiece. If they do have a technical wishlist, let them pick the exact configuration and contribute toward it."]
+      "slug": "best-flight-bag-gifts",
+      "title": "Best flight-bag gifts: a new bag or a useful small upgrade?",
+      "short": "Best flight-bag gifts",
+      "category": "pilot-gear",
+      "picks": [
+        "bag",
+        "light",
+        "pen",
+        "kneeboard"
+      ],
+      "intro": "Choose a flight-bag gift around the pilot’s existing routine. A light, pen or carefully chosen bag can be more useful than another bundle of accessories.",
+      "description": "Choose a flight-bag gift around the pilot’s existing routine. A light, pen or carefully chosen bag can be more useful than another bundle of accessories.",
+      "sections": [
+        [
+          "Find the problem before buying the bag",
+          "Ask what bothers the pilot about their current setup. Is it difficult to find a pen, awkward to carry, too bulky or simply worn out? A new bag is only an upgrade if it solves the actual problem. A pilot who has refined their packing system may prefer a small replacement accessory over a completely different layout. Ask for a photo of their current bag and a list of the items that must fit."
+        ],
+        [
+          "A bag candidate under $100",
+          "The Flight Gear Stealth Bag is listed at $79.95 in our research. Treat it as a candidate to compare with the recipient’s needs, not a universal winner. Measure the headset case, tablet and any other bulky items, then check the listing’s dimensions and pocket arrangement. Also consider where the bag will sit in the aircraft and how it will be carried between the car, terminal and airplane."
+        ],
+        [
+          "Small accessories can solve specific annoyances",
+          "The Flight Gear Aviator’s Light and SKILCRAFT B3 pen are smaller ideas when a replacement bag is unnecessary. Ask whether the pilot already carries a light and what they like about it. With a pen, consider how it is stored and whether the recipient prefers a particular ink or pencil format. An accessory earns its place by being useful, not by adding weight to a themed gift bundle."
+        ],
+        [
+          "Tablet accessories need exact information",
+          "A rotating kneeboard is worth considering only after checking tablet model, case, orientation and how the pilot mounts or carries it. A product that appears universal may still be wrong for an individual setup. Get the exact requested link if possible. For an uncertain purchase, a gift card or a shared shopping trip avoids leaving the recipient with an accessory that never leaves the closet."
+        ]
+      ],
+      "sources": [
+        "https://www.sportys.com/flight-gear-stealth-bag.html",
+        "https://www.sportys.com/flight-gear-universal-aviator-s-light.html",
+        "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+        "https://www.sportys.com/flight-gear-rotating-ipad-kneeboard.html"
       ]
     },
     {
-      "slug":"pilot-gifts-under-50","title":"Pilot gifts under $50 that feel thoughtfully chosen","short":"Thoughtful gifts under $50","description":"Affordable pilot gifts under $50: a practical shortlist of pens, lights, logbooks, apparel and aviation keepsakes with buying checks.","intro":"A smaller budget works well when the gift is specific. Match a useful item to their habits, or a small keepsake to an airplane they love. The products here were listed below $50 when checked; shipping and tax can change the final total.","picks":["pen","light","logbook","ornament","cessna-cap","cessna-shirt","bag-tag","kneeboard"],
-      "sections":[
-        ["Choose one good match","The goal is not to assemble as many aviation-themed things as possible. A pilot who writes paper notes may appreciate a multifunction pen more than a box of novelty items. Someone who loves airshows may get more enjoyment from a Blue Angels ornament. Start with how they spend their time, then use price to narrow the options. A short explanation of why you picked the item can make an inexpensive gift feel considered."],
-        ["Useful gifts for a flight bag","The SKILCRAFT B3 combines two ink colors with a pencil, making it a straightforward option for a paper-note user. A compact red-and-white light is another possibility, especially if you know their current one needs replacing. Neither requires choosing a major aircraft component, but preferences still matter. Ask what they already own. A bag tag is inexpensive and easy to pair with a handwritten card for a working pilot."],
-        ["Personal gifts for off-duty time","Clothing and ornaments can make good low-budget gifts when the reference is right. A Cessna 182 shirt is particularly relevant to someone who flies or admires the Skylane. Do not substitute it for a 172-specific gift without checking the connection. With apparel, leave room in the budget for shipping and select a seller with suitable exchange terms. A cap avoids some shirt-sizing uncertainty, though fit and style are still personal."],
-        ["Budget does not remove compatibility checks","An inexpensive kneeboard can still be the wrong purchase if it does not fit the recipient’s tablet and case. A logbook can be redundant if a school already supplies one. Check with the pilot or instructor before buying either. It is better to spend a little less on the right item than to buy something technical simply because it appears to be a deal."],
-        ["Keep the delivered price under your limit","The prices shown are product prices in US dollars, not guaranteed checkout totals. Shipping can be a large share of a small order. Compare the delivered total and avoid adding unrelated items just to reach a free-shipping threshold. If you are buying several small gifts from one retailer, a combined order may make sense, but the final choice should still fit each recipient."]
+      "slug": "pilot-gifts-under-100",
+      "title": "Pilot gifts under $100: practical picks without a big equipment purchase",
+      "short": "Pilot gifts under $100: practical picks without a big equipment purchase",
+      "category": "by-budget",
+      "picks": [
+        "bag",
+        "light",
+        "pen",
+        "cessna-cap"
+      ],
+      "intro": "A $100 budget opens up useful flight-bag accessories and personal gifts. Here is how to spend it without buying unnecessary equipment.",
+      "description": "A $100 budget opens up useful flight-bag accessories and personal gifts. Here is how to spend it without buying unnecessary equipment.",
+      "sections": [
+        [
+          "Pick one good match before assembling a bundle",
+          "Start with a single item that fits the recipient’s interests. A flight bag may suit a student who needs one, while a cap connected to a favorite aircraft brand may suit someone who prefers gifts for time off. Do not add unrelated accessories just to spend the full budget. Leaving room for tax, delivery and a personal note usually makes a better gift than padding an order with items that will not be used."
+        ],
+        [
+          "For a practical purchase: a flight bag",
+          "The Flight Gear Stealth Bag was listed at $79.95 when checked. That leaves some room below a $100 merchandise budget, but it does not guarantee a delivered total below $100. Verify shipping and tax before paying. Ask what the recipient needs to carry and compare those items with the bag’s dimensions. A flight bag should fit an existing routine rather than force a new one."
+        ],
+        [
+          "For a smaller useful gift: a light or pen",
+          "The Aviator’s Light at $29.95 and B3 pen at $24.50 are options to discuss if the pilot likes practical accessories. Together they total $54.45 before shipping and tax. Buy both only if both are wanted. A pilot who already owns reliable versions may prefer one personal keepsake or a contribution toward a larger planned purchase."
+        ],
+        [
+          "For an off-duty gift: match the aircraft interest",
+          "A Cessna cap or shirt can be an easier surprise than cockpit equipment. Confirm that the recipient likes that aircraft brand and, for clothing, check fit. Brand enthusiasm is personal: someone who flies one type for work may collect models of an entirely different airplane. Notice the aircraft they talk about when they are off duty, not just the one printed on their training paperwork."
+        ]
+      ],
+      "sources": [
+        "https://www.sportys.com/flight-gear-stealth-bag.html",
+        "https://www.sportys.com/flight-gear-universal-aviator-s-light.html",
+        "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+        "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap"
       ]
     },
     {
-      "slug":"gifts-for-aviation-lovers","title":"Gifts for aviation lovers who don’t need cockpit gear","short":"For the lifelong avgeek","description":"Gift ideas for aviation enthusiasts, plane spotters and airliner fans, from LEGO Concorde to models and small airshow keepsakes.","intro":"You do not need to be a pilot to love airplanes. For an aviation enthusiast, the best gift might live on a shelf, hang on a tree or become a way to enjoy airport activity from home.","picks":["concorde","skyhawk","ornament","cessna-cap","cessna-shirt"],
-      "sections":[
-        ["Find their kind of aviation","Airliner enthusiasts, general aviation fans and military airshow followers can have very different tastes. Look at the aircraft they photograph or the stories they share. Someone who follows long-haul airlines may love Concorde but have little connection to a Cessna. A Blue Angels fan may appreciate an ornament of that team more than a generic airplane decoration. Make the category personal before choosing the product."],
-        ["For the builder","LEGO’s Concorde is an adult building project and a display piece in one. The official listing specifies 2,083 pieces and an age recommendation of 18+. That makes it a better fit for someone who enjoys a detailed build than someone who wants a small ready-made object. The display footprint matters: measure the shelf rather than judging scale from product photographs. Leave time to build it, too; the project itself is part of the gift."],
-        ["For the collector","A finished aircraft model is an alternative when building is not the attraction. The Cessna 172 mahogany model is a starting point for someone connected to light aircraft, especially if the type appears in their own flying memories. Check size, material and stand details at the retailer. Collectors may care about exact variants and liveries, so an apparently small detail can determine whether the model fits their collection."],
-        ["For everyday enthusiasm","A cap, shirt or holiday ornament lets someone enjoy the interest without dedicating a shelf to it. Match the aircraft brand or display team to the person. For someone who likes following real airport activity, ATC.com provides information about the ATC listening app. This guide is made by the team behind ATC; that connection is disclosed so you can weigh our recommendation."],
-        ["Keep technical gifts off the surprise list","An enthusiast does not necessarily need an aviation headset, kneeboard or flight training equipment. Those are specialized tools. Unless the recipient has asked for them, use the budget on a gift related to the part of aviation they already enjoy. If they are considering learning to fly, a conversation with a local flight school can help you explore an introductory experience and its booking terms."]
+      "slug": "aircraft-model-gift-guide",
+      "title": "How to choose an aircraft model as a gift",
+      "short": "How to choose an aircraft model as a gift",
+      "category": "toys-models",
+      "picks": [
+        "skyhawk",
+        "concorde",
+        "ornament"
+      ],
+      "intro": "The best aircraft model gift is often the airplane with a story. Choose the right type, scale and display format before deciding how much to spend.",
+      "description": "The best aircraft model gift is often the airplane with a story. Choose the right type, scale and display format before deciding how much to spend.",
+      "sections": [
+        [
+          "Find the airplane with personal meaning",
+          "Ask about the recipient’s first lesson, first solo, favorite airline or memorable airshow. A model connected to that story can be more meaningful than a large generic jet. Get the aircraft name and variant right. If you are unsure, a photograph is useful: the recipient or a knowledgeable friend may be able to identify it without you needing to learn every designation."
+        ],
+        [
+          "Check what the model represents",
+          "Two listings can name the same aircraft family while showing different versions, markings or finishes. Collectors may care about those distinctions. Check photographs from multiple angles, the stated material and whether a stand is included. If the listing describes a handcrafted item, find out whether small differences are expected. Personalization should only be ordered after the spelling and any registration details are confirmed."
+        ],
+        [
+          "Measure the destination, not just the model",
+          "A model needs room for its wings, stand and safe handling. Measure the shelf or desk where it might live and leave clearance around delicate parts. A long aircraft can look compact in a product photograph. LEGO’s Concorde, for example, needs a substantial display area once assembled. If the recipient lives in a small apartment, a smaller keepsake may be a more considerate choice."
+        ],
+        [
+          "Choose finished model or building project",
+          "A finished model suits someone who wants to display an aircraft immediately. A construction set suits someone who enjoys the process. Neither is automatically more thoughtful. If you want the gift to become a shared activity, ask whether the recipient would enjoy building together. Keep the option easy to decline; a gift should not arrive as an obligation to complete a project on your schedule."
+        ]
+      ],
+      "sources": [
+        "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models",
+        "https://www.lego.com/en-us/product/concorde-10318",
+        "https://www.pilotmall.com/products/kurt-adler-4-5-navy-blue-angeles-jet-ornament"
       ]
     },
     {
-      "slug":"last-minute-pilot-gifts","title":"Last-minute pilot gifts when shipping is uncertain","short":"When you’ve left it late","description":"How to choose a last-minute gift for a pilot, including email gift cards and a checklist for delivery, redemption and meaningful presentation.","intro":"When the holiday is close, separate what you can buy today from what will actually reach the recipient in time. A digital gift with confirmed delivery is a better plan than an uncertain shipping promise.","picks":["gift-card"],
-      "sections":[
-        ["Start with a verified digital option","Sporty’s offers an email gift card with immediate or scheduled delivery described on its product page. That makes it a useful option when you cannot confidently choose a specific accessory. Check the available amounts, recipient address and delivery setting during checkout. A product page saying digital does not mean every order will arrive instantly under every circumstance; payment review and email filtering can still affect receipt."],
-        ["Make a gift card feel personal","Explain what you imagined the gift contributing toward: the flight bag they have mentioned, equipment for a new stage of training or something they can choose for an upcoming trip. Avoid promising that the amount covers an item unless you checked the current delivered price. A handwritten note or a small printed card can make the presentation thoughtful without pretending you have purchased a specific product."],
-        ["Check the fine details before paying","Confirm whether the gift is delivered to you or directly to the recipient, whether you can schedule it, and how redemption works. Double-check the email address and retain the receipt separately from any gift-card code. Read the refund and expiration terms on the merchant’s site. If you are gifting a subscription, verify whether the recipient can redeem it on an existing account and whether renewal is automatic."],
-        ["Do not confuse shipping with arrival","Same-day shipping means dispatch, not guaranteed delivery by your celebration. The relevant estimate is the one for the destination and service selected at checkout. Weather, weekends and fulfillment delays may change it. If arrival is uncertain, give an honest note about what is on the way instead of implying that it will be there on a date the merchant has not guaranteed."],
-        ["If you want to gift an aviation experience","Call the flight school or experience provider directly to confirm that it sells gift certificates and what is included. Ask about booking availability, cancellation, recipient requirements and expiration. Do not present a flight as booked unless it actually is. For app-based gifts, use the provider’s official gifting flow where available; do not share an account password or assume a personal app purchase transfers to someone else."]
+      "slug": "gifts-for-new-private-pilots",
+      "title": "Gifts for a newly qualified private pilot",
+      "short": "Gifts for a newly qualified private pilot",
+      "category": "student-pilots",
+      "picks": [
+        "skyhawk",
+        "logbook",
+        "bag",
+        "gift-card"
+      ],
+      "intro": "Celebrate a new pilot’s achievement with a gift that recognizes the work behind it, without guessing what equipment they need next.",
+      "description": "Celebrate a new pilot’s achievement with a gift that recognizes the work behind it, without guessing what equipment they need next.",
+      "sections": [
+        [
+          "Recognize the achievement before choosing equipment",
+          "A new qualification is personal. A short note recalling the work, persistence or memorable moments can make an ordinary gift meaningful. Ask what the pilot is excited about next: taking family flying, exploring somewhere new or continuing training. Those answers guide the gift better than assuming that passing a milestone means they need a more expensive headset or a bigger bag."
+        ],
+        [
+          "A keepsake of the training airplane",
+          "An aircraft model can mark the stage they have just completed. Confirm the exact airplane type before choosing a Cessna 172 model or another candidate. If you cannot find a close match, do not force the idea. A framed personal photo or a thoughtfully written card may tell the story more accurately than a model of the wrong airplane. Ask permission before using someone else’s photograph."
+        ],
+        [
+          "Useful basics should match their existing system",
+          "A new logbook or flight bag can be practical if the pilot wants one. Check their preferences first. Some people want to continue using an existing book rather than start a new volume at an arbitrary point. Others have equipment plans already. Let the pilot and instructor determine operational needs; your gift can support those plans without creating a parallel shopping list."
+        ],
+        [
+          "A contribution can be the most welcome option",
+          "A clearly stated contribution toward their chosen aviation purchase gives them flexibility. Explain whether the amount is fixed or whether you intend to cover a particular item. If using a merchant gift card, verify that the recipient shops there and understands the terms. The celebration is the important part; the gift does not have to demonstrate technical expertise."
+        ]
+      ],
+      "sources": [
+        "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models",
+        "https://www.pilotmall.com/products/asa-standard-pilot-logbook-black",
+        "https://www.sportys.com/flight-gear-stealth-bag.html",
+        "https://www.sportys.com/sporty-s-email-gift-card.html"
       ]
     },
     {
-      "slug":"buying-a-pilot-headset-as-a-gift","title":"Buying a pilot headset as a gift: choose it together","short":"Before you buy a headset","description":"A practical gift-buying checklist for aviation headsets: aircraft connectors, power, fit, existing equipment and return terms.","intro":"A headset is one of the most personal—and expensive—gifts on a pilot’s wishlist. The smart move is to preserve the excitement of the gift while letting the pilot choose the exact version.","picks":["bose","lightspeed","gift-card"],
-      "sections":[
-        ["Ask for the exact product link","A model name alone may not identify the right headset. Different configurations can use different aircraft connections and power arrangements. Ask the recipient for the precise retailer link and selected options, then confirm those options at checkout. A headset that is right for one aircraft may require a different setup in another. If they regularly fly multiple types, let them decide how they want to handle that."],
-        ["Fit is not a specification sheet","Comfort depends on the person as well as the product. Glasses, head shape and personal preferences all matter. A high price does not guarantee the recipient will like the fit. Give them an opportunity to try the headset where possible, and read return conditions before ordering. If there is a restocking fee, a limited trial window or a restriction once used, factor it into the decision."],
-        ["Two candidates to discuss","The Bose A30 and Lightspeed Zulu 3 are examples of premium aviation headsets available from the linked retailer. Both belong on a conversation list, not an automatic ranking. This guide has not performed a head-to-head test. Use the product pages to check the current configuration, included accessories and warranty information, then ask the pilot which they actually want. Their existing equipment may already satisfy their needs."],
-        ["Make the surprise a contribution","If you cannot verify every detail, give a contribution toward the chosen headset or offer to buy it together. You can still make the presentation personal: a note recognizing a training milestone or a new flying role can carry the occasion. Be clear whether you are covering a fixed amount or the full cost, including any required accessories, tax and shipping."],
-        ["Before the order is final","Confirm the exact connector and power choice, the retailer’s return policy, the warranty provider and whether the recipient already owns the model. Check delivery to their location. Do not buy an adapter to fix an uncertain choice without the pilot’s input. A few direct questions now are preferable to a costly exchange after the gift is opened."]
+      "slug": "gifts-for-flight-instructors",
+      "title": "Gifts for flight instructors: thoughtful ways to say thank you",
+      "short": "Gifts for flight instructors: thoughtful ways to say thank you",
+      "category": "occasions",
+      "picks": [
+        "pen",
+        "cessna-cap",
+        "gift-card"
+      ],
+      "intro": "Choose an instructor thank-you gift that is personal, modest and easy to accept. A specific note often matters more than another piece of cockpit gear.",
+      "description": "Choose an instructor thank-you gift that is personal, modest and easy to accept. A specific note often matters more than another piece of cockpit gear.",
+      "sections": [
+        [
+          "Start with a specific thank-you",
+          "Tell the instructor what they helped you learn or how they supported your progress. A note about a difficult lesson finally clicking is more personal than a generic aviation slogan. Keep the message about appreciation rather than future favors. If the instructor works for a school, ask about any gift policy before choosing something expensive or organizing a group collection."
+        ],
+        [
+          "Avoid guessing at professional equipment",
+          "An instructor likely has strong preferences about headsets, bags and teaching materials. A duplicate item may be less useful than you expect. Ask for a wishlist if the relationship makes that comfortable, or choose a low-stakes personal item such as a cap connected to an aircraft they enjoy. Do not assume that teaching in one type means they want every gift to display its logo."
+        ],
+        [
+          "Keep practical gifts small and easy to exchange",
+          "A pen can be a modest option, while a gift card works only if it is for a retailer the instructor uses. Preserve the receipt and avoid engraving until you know the recipient wants the item. A group gift should have a clear organizer, a voluntary contribution and a sensible total. Nobody should feel pressured to participate or to match another student’s spending."
+        ],
+        [
+          "Separate appreciation from an endorsement request",
+          "A thank-you gift should not come with an expectation that the instructor promotes a business, posts a photo or recommends a product. If you want to ask for a testimonial or introduction, make it a separate conversation. For a personal gift, the most useful finishing touch is often a card that the instructor can keep long after the item has been used."
+        ]
+      ],
+      "sources": [
+        "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+        "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap",
+        "https://www.sportys.com/sporty-s-email-gift-card.html"
+      ]
+    },
+    {
+      "slug": "aviation-gifts-for-small-spaces",
+      "title": "Aviation gifts for small desks, apartments and crowded shelves",
+      "short": "Aviation gifts for small desks, apartments and crowded shelves",
+      "category": "toys-models",
+      "picks": [
+        "ornament",
+        "cessna-cap",
+        "pen",
+        "gift-card"
+      ],
+      "intro": "Choose a gift that fits the recipient’s space as well as their aviation interest. Small keepsakes and useful everyday items can beat a giant model.",
+      "description": "Choose a gift that fits the recipient’s space as well as their aviation interest. Small keepsakes and useful everyday items can beat a giant model.",
+      "sections": [
+        [
+          "Treat space as part of the budget",
+          "A gift can cost the recipient room even when it costs them no money. Before buying a model, consider whether there is a clear place for it. A crowded desk or shared apartment may not have room for a wide wingspan or display stand. Ask casually about what they want to put on a shelf, rather than assuming they will rearrange their home around your gift."
+        ],
+        [
+          "Choose something that has a natural home",
+          "A small ornament joins an existing seasonal display. A cap belongs with other clothing. A pen can replace an item already in use. These gifts are easier to accommodate than an object that needs a new cabinet or wall mount. The point is not to make every gift practical; it is to choose a scale that matches the recipient’s daily life."
+        ],
+        [
+          "For collectors, check the collection first",
+          "Collectors may prefer fewer carefully chosen objects over a stream of random airplane merchandise. Ask which aircraft, scale or manufacturer they collect. If the collection is already full, consider contributing to an item they have selected rather than adding something adjacent to it. Avoid buying a cheap miniature simply because a large model would not fit. It still needs a reason to belong."
+        ],
+        [
+          "Digital options can avoid physical clutter",
+          "A merchant gift card gives the recipient time to choose, while an aviation app may suit someone who enjoys listening or following flights. This site is produced by the ATC team, so treat our own app mention with that relationship in mind. Check access, device support and any official gifting process before paying. A personal subscription is not automatically transferable as a gift."
+        ]
+      ],
+      "sources": [
+        "https://www.pilotmall.com/products/kurt-adler-4-5-navy-blue-angeles-jet-ornament",
+        "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap",
+        "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+        "https://www.sportys.com/sporty-s-email-gift-card.html"
+      ]
+    },
+    {
+      "slug": "pilot-gift-bundles",
+      "title": "Pilot gift bundles that make sense: three small combinations",
+      "short": "Pilot gift bundles that make sense: three small combinations",
+      "category": "by-budget",
+      "picks": [
+        "pen",
+        "logbook",
+        "light",
+        "cessna-cap"
+      ],
+      "intro": "Build a small pilot gift bundle around one clear purpose. These combinations use listed prices and leave room to check compatibility, tax and delivery.",
+      "description": "Build a small pilot gift bundle around one clear purpose. These combinations use listed prices and leave room to check compatibility, tax and delivery.",
+      "sections": [
+        [
+          "For a student who wants paper basics",
+          "An ASA logbook at $9.49 and SKILCRAFT B3 pen at $24.50 total $33.99 before tax and shipping. This is a sensible pairing only if the student wants that logbook format and pen. Ask the instructor or recipient first. Add a note celebrating the start of training, rather than filling the package with accessories that have no role in the student’s current lessons."
+        ],
+        [
+          "For a practical flight-bag refresh",
+          "The Aviator’s Light at $29.95 and B3 pen at $24.50 total $54.45 before delivery and tax. The shared purpose is easy access to two small tools, but the pilot may already own preferred versions. Confirm that both would be welcome. A bundle is not automatically better value than one item; its value comes from the recipient using what is inside."
+        ],
+        [
+          "For an off-duty aviation fan",
+          "A Cessna cap at $34.99 and Blue Angels ornament at $17.99 total $52.98 before tax and shipping. These are different aviation interests, so combine them only for someone who likes both. Otherwise choose one item and a personal card. Do not manufacture a theme simply because two products have airplanes on them."
+        ],
+        [
+          "Keep the total honest",
+          "Prices in these examples were checked on October 20, 2026. Separate retailers may charge separate shipping fees, and a modest bundle can exceed a firm budget at checkout. Keep the receipts for each item and avoid splitting a digital gift-card code across a public group chat. If your target is a fixed delivered total, leave a buffer rather than spending every dollar on merchandise."
+        ]
+      ],
+      "sources": [
+        "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+        "https://www.pilotmall.com/products/asa-standard-pilot-logbook-black",
+        "https://www.sportys.com/flight-gear-universal-aviator-s-light.html",
+        "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap"
+      ]
+    },
+    {
+      "slug": "aviation-gifts-for-plane-spotters",
+      "title": "Gifts for plane spotters and aviation enthusiasts",
+      "short": "Gifts for plane spotters and aviation enthusiasts",
+      "category": "occasions",
+      "picks": [
+        "concorde",
+        "skyhawk",
+        "cessna-cap",
+        "ornament"
+      ],
+      "intro": "Plane spotting is an aviation interest of its own. Choose a gift around the aircraft and experiences the person enjoys, rather than assuming they need pilot equipment.",
+      "description": "Plane spotting is an aviation interest of its own. Choose a gift around the aircraft and experiences the person enjoys, rather than assuming they need pilot equipment.",
+      "sections": [
+        [
+          "Ask which airplanes they get excited about",
+          "A plane spotter may follow particular airlines, rare aircraft or a favorite airport. That interest can guide a model, building set or wearable gift. Notice the photos they share and the airplanes they stop to watch. Do not assume that a generic pilot slogan fits someone whose enjoyment comes from observing rather than flying. The right subject is usually more important than a large price tag."
+        ],
+        [
+          "A model can bring a favorite aircraft indoors",
+          "A building set such as Concorde suits someone who enjoys the making as well as the finished object. A ready-made model suits someone who wants a display piece immediately. Check scale, livery and available space. If the person photographs airliners, a light-aircraft model may have little relevance unless it connects to another part of their aviation story."
+        ],
+        [
+          "Everyday gifts can be easier to get right",
+          "A cap or ornament can be a small reminder of an aircraft brand or display team they enjoy. Clothing still needs a size and style check. Avoid buying photography equipment without an exact wishlist; cameras, lenses and accessories have compatibility and personal-preference issues just as aviation equipment does. A contribution toward a chosen item is a reasonable alternative."
+        ],
+        [
+          "Consider an experience without promising access",
+          "A museum visit or a shared day watching airplanes can be meaningful, but check opening hours, visitor rules and accessibility before presenting it as a plan. Use designated public areas and follow local rules. Do not promise restricted airport access or a flight-deck visit. If the gift is simply time together, say so clearly and let the recipient help choose the date."
+        ]
+      ],
+      "sources": [
+        "https://www.lego.com/en-us/product/concorde-10318",
+        "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models",
+        "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap",
+        "https://www.pilotmall.com/products/kurt-adler-4-5-navy-blue-angeles-jet-ornament"
+      ]
+    },
+    {
+      "slug": "pilot-gift-shopping-mistakes",
+      "title": "Seven pilot gift shopping mistakes you can avoid",
+      "short": "Seven pilot gift shopping mistakes you can avoid",
+      "category": "pilot-gear",
+      "picks": [
+        "gift-card",
+        "bag",
+        "skyhawk"
+      ],
+      "intro": "Avoid common aviation gift mistakes, from the wrong aircraft model to a headset configuration chosen from a photo.",
+      "description": "Avoid common aviation gift mistakes, from the wrong aircraft model to a headset configuration chosen from a photo.",
+      "sections": [
+        [
+          "Mistakes 1 and 2: guessing the aircraft and the equipment",
+          "The airplane someone flies, the airplane they trained in and the airplane they love may be different. Ask which one matters for a model or keepsake. For equipment, request the exact product link with selected options. A headset name does not establish connector or power requirements, and a tablet accessory name does not establish fit with the recipient’s case."
+        ],
+        [
+          "Mistakes 3 and 4: buying duplicates and oversized gifts",
+          "A useful item can still be a disappointing gift if the pilot already owns a preferred version. Ask what they want to replace. For display gifts, check the finished dimensions and the available space, including wingspan and stand. A larger model is not automatically more impressive if it cannot fit safely on a shelf."
+        ],
+        [
+          "Mistakes 5 and 6: confusing dispatch with arrival and ignoring returns",
+          "A shipping date is not a delivery guarantee. Use the destination-specific estimate at checkout and consider whether the recipient will be home. Read return conditions before ordering, especially for personalized items or equipment that may need to be tried. A receipt is useful only if an exchange is still possible when the gift is opened."
+        ],
+        [
+          "Mistake 7: making the gift a test of your aviation knowledge",
+          "You do not need to surprise a pilot with technical expertise. A thoughtful question, a contribution toward a requested item or a personal keepsake can be a better choice than an elaborate guess. Spend the effort on understanding the person. The best reaction is that the gift feels right for them, not that they are impressed by how many product specifications you memorized."
+        ]
+      ],
+      "sources": [
+        "https://www.sportys.com/sporty-s-email-gift-card.html",
+        "https://www.sportys.com/flight-gear-stealth-bag.html",
+        "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models"
+      ]
+    },
+    {
+      "slug": "choosing-a-pilot-logbook-gift",
+      "title": "Choosing a pilot logbook as a gift",
+      "short": "Choosing a pilot logbook as a gift",
+      "category": "student-pilots",
+      "picks": [
+        "logbook",
+        "pen",
+        "gift-card"
+      ],
+      "intro": "A logbook can be a useful early-training gift, but the format and timing matter. Check how the pilot already records flights before buying one.",
+      "description": "A logbook can be a useful early-training gift, but the format and timing matter. Check how the pilot already records flights before buying one.",
+      "sections": [
+        [
+          "Ask whether a new book is wanted",
+          "A logbook is part of the pilot’s record-keeping routine. Some people use paper, some use digital tools and some use both. A new book may be welcome at the start of training but unnecessary later. Ask the recipient or instructor what format is preferred. Do not assume that an attractive cover is enough to make the book suitable."
+        ],
+        [
+          "Check the layout rather than just the cover",
+          "Look at the interior page format, dimensions and binding information on the product listing. The ASA book in this guide is a low-cost candidate at a listed $9.49, not a recommendation for every jurisdiction or training program. Let the pilot and instructor decide what meets their record-keeping needs. Our gift guide does not establish aviation documentation requirements."
+        ],
+        [
+          "Keep personalization reversible",
+          "Write your message in a separate card rather than inside the logbook unless the recipient has said they want that. Do not fill in flight information or create an entry as a surprise. An engraved cover or permanent inscription can make an otherwise simple exchange impossible. If you want to recognize a milestone, include the date in the card and let the pilot choose how to preserve it."
+        ],
+        [
+          "A small companion gift can be enough",
+          "A pen can accompany the book if it suits the recipient’s preferences. Keep the bundle modest and include a gift receipt. If the pilot already has a well-established system, choose a keepsake or a contribution toward something on their wishlist instead. The purpose is to support their flying journey, not to redesign how they document it."
+        ]
+      ],
+      "sources": [
+        "https://www.pilotmall.com/products/asa-standard-pilot-logbook-black",
+        "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+        "https://www.sportys.com/sporty-s-email-gift-card.html"
+      ]
+    },
+    {
+      "slug": "gifts-for-student-pilots",
+      "title": "Gifts for student pilots, from first lesson to first solo",
+      "short": "For the student pilot",
+      "description": "Practical student pilot gift ideas, with advice on logbooks, kneeboards, flight bags and what to ask their instructor before buying.",
+      "intro": "The best gift for a student pilot fits the stage they are at. Someone booking a first lesson needs different things from someone preparing for a checkride. Start with one question: what has their instructor actually recommended?",
+      "picks": [
+        "logbook",
+        "pen",
+        "light",
+        "bag",
+        "kneeboard",
+        "skyhawk"
+      ],
+      "sections": [
+        [
+          "Start with the instructor’s list",
+          "Before buying training equipment, find out what the school already supplies and what the instructor expects the student to bring. A duplicate logbook or an incompatible tablet holder is less helpful than a simple gift card. You do not need to understand every piece of equipment: ask the student for a photo or link to their list. If you want to keep the surprise, ask which category is still missing without choosing a model yet."
+        ],
+        [
+          "For the first few lessons",
+          "A modest, practical gift is often enough. A logbook can mark the beginning of training if the school has not already supplied one. A pen is easy to add, and a compact light may be useful as the student builds a flight bag. Keep a gift receipt. Avoid buying a complete bundle simply because it says student pilot; the school may have a different syllabus, preferred materials or equipment requirements."
+        ],
+        [
+          "For someone already training",
+          "Pay attention to what they carry. A compact flight bag can help if everything currently goes into a general backpack. A kneeboard makes sense only if it fits their exact tablet and they prefer that setup in the cockpit. Ask about the tablet case as well as the iPad model. A headset is a bigger decision: make it a choose-together gift with the student and instructor instead of guessing at connectors or fit."
+        ],
+        [
+          "Make a milestone gift personal",
+          "For a first solo or certificate, the story can matter more than the price. A model of the aircraft they actually flew is a better match than a more expensive model of an unrelated airplane. Confirm the type and variant before buying. Add a handwritten note with the date and the moment you are celebrating. For a flight lesson contribution, arrange payment directly with the school and confirm how credit is applied and whether it expires."
+        ],
+        [
+          "What should you avoid?",
+          "Do not assume that a flight simulator accessory, training course or navigation subscription matches their instructor’s plan. Ask first. A gift should support training without creating a second system the student has to learn. If you cannot verify compatibility, choose a keepsake or a retailer gift card and let them select their own equipment."
+        ]
+      ]
+    },
+    {
+      "slug": "gifts-for-pilots-who-have-everything",
+      "title": "What do you get the pilot who has everything?",
+      "short": "For the pilot who has everything",
+      "description": "Thoughtful gifts for pilots who already own their gear: aircraft models, building projects, aviation listening and meaningful personal details.",
+      "intro": "When a pilot has their equipment exactly how they like it, another gadget can be the wrong answer. Look for something that celebrates why they love aviation: a particular aircraft, a favorite airshow or the pleasure of listening to a busy airport.",
+      "picks": [
+        "concorde",
+        "skyhawk",
+        "ornament",
+        "cessna-cap",
+        "gift-card"
+      ],
+      "sections": [
+        [
+          "Buy for the story, not the equipment list",
+          "A pilot who owns a headset, flight bag and tablet mount may not want replacements. Instead, ask what airplane they learned in, what aircraft they dream of flying or which airshow they return to. Those answers lead to more personal gifts. You can often find the clues in photographs, the airplane they point out at an airport or the model already sitting on their desk."
+        ],
+        [
+          "Give them a project",
+          "The LEGO Icons Concorde turns an interest in airplanes into something to build. It suits an adult who enjoys the making as much as the finished object. Check the available display space first: the completed model is more than three feet long. It may be a wonderful weekend project for someone with a dedicated aviation shelf and a poor choice for someone who travels constantly and has little room at home."
+        ],
+        [
+          "Choose the aircraft they remember",
+          "A Cessna 172 model can have a very different meaning to someone who trained in one than to someone whose flying began in a Piper. Confirm the aircraft type before ordering, and consider whether the color scheme or variant matters to them. A model does not have to match every detail to be meaningful, but your note should explain the connection rather than present it as a replica of their exact airplane."
+        ],
+        [
+          "Give them aviation between flights",
+          "For someone who enjoys following flights from home, the ATC app is another way to spend time with aviation. It offers live air traffic control listening and playback. Visit ATC.com to check the current app and access options. Pilot Gift Guide is produced by the team behind ATC, so this is our own product recommendation. We do not present it as an independent review or claim that it replaces flight instruction."
+        ],
+        [
+          "A small gift can still be the right gift",
+          "An ornament tied to their favorite airshow team or a cap from an aircraft brand they love can work better than an expensive technical item. If they truly want nothing, a note about a shared aviation memory may be the centerpiece. If they do have a technical wishlist, let them pick the exact configuration and contribute toward it."
+        ]
+      ]
+    },
+    {
+      "slug": "pilot-gifts-under-50",
+      "title": "Pilot gifts under $50 that feel thoughtfully chosen",
+      "short": "Thoughtful gifts under $50",
+      "description": "Affordable pilot gifts under $50: a practical shortlist of pens, lights, logbooks, apparel and aviation keepsakes with buying checks.",
+      "intro": "A smaller budget works well when the gift is specific. Match a useful item to their habits, or a small keepsake to an airplane they love. The products here were listed below $50 when checked; shipping and tax can change the final total.",
+      "picks": [
+        "pen",
+        "light",
+        "logbook",
+        "ornament",
+        "cessna-cap",
+        "cessna-shirt",
+        "bag-tag",
+        "kneeboard"
+      ],
+      "sections": [
+        [
+          "Choose one good match",
+          "The goal is not to assemble as many aviation-themed things as possible. A pilot who writes paper notes may appreciate a multifunction pen more than a box of novelty items. Someone who loves airshows may get more enjoyment from a Blue Angels ornament. Start with how they spend their time, then use price to narrow the options. A short explanation of why you picked the item can make an inexpensive gift feel considered."
+        ],
+        [
+          "Useful gifts for a flight bag",
+          "The SKILCRAFT B3 combines two ink colors with a pencil, making it a straightforward option for a paper-note user. A compact red-and-white light is another possibility, especially if you know their current one needs replacing. Neither requires choosing a major aircraft component, but preferences still matter. Ask what they already own. A bag tag is inexpensive and easy to pair with a handwritten card for a working pilot."
+        ],
+        [
+          "Personal gifts for off-duty time",
+          "Clothing and ornaments can make good low-budget gifts when the reference is right. A Cessna 182 shirt is particularly relevant to someone who flies or admires the Skylane. Do not substitute it for a 172-specific gift without checking the connection. With apparel, leave room in the budget for shipping and select a seller with suitable exchange terms. A cap avoids some shirt-sizing uncertainty, though fit and style are still personal."
+        ],
+        [
+          "Budget does not remove compatibility checks",
+          "An inexpensive kneeboard can still be the wrong purchase if it does not fit the recipient’s tablet and case. A logbook can be redundant if a school already supplies one. Check with the pilot or instructor before buying either. It is better to spend a little less on the right item than to buy something technical simply because it appears to be a deal."
+        ],
+        [
+          "Keep the delivered price under your limit",
+          "The prices shown are product prices in US dollars, not guaranteed checkout totals. Shipping can be a large share of a small order. Compare the delivered total and avoid adding unrelated items just to reach a free-shipping threshold. If you are buying several small gifts from one retailer, a combined order may make sense, but the final choice should still fit each recipient."
+        ]
+      ]
+    },
+    {
+      "slug": "gifts-for-aviation-lovers",
+      "title": "Gifts for aviation lovers who don’t need cockpit gear",
+      "short": "For the lifelong avgeek",
+      "description": "Gift ideas for aviation enthusiasts, plane spotters and airliner fans, from LEGO Concorde to models and small airshow keepsakes.",
+      "intro": "You do not need to be a pilot to love airplanes. For an aviation enthusiast, the best gift might live on a shelf, hang on a tree or become a way to enjoy airport activity from home.",
+      "picks": [
+        "concorde",
+        "skyhawk",
+        "ornament",
+        "cessna-cap",
+        "cessna-shirt"
+      ],
+      "sections": [
+        [
+          "Find their kind of aviation",
+          "Airliner enthusiasts, general aviation fans and military airshow followers can have very different tastes. Look at the aircraft they photograph or the stories they share. Someone who follows long-haul airlines may love Concorde but have little connection to a Cessna. A Blue Angels fan may appreciate an ornament of that team more than a generic airplane decoration. Make the category personal before choosing the product."
+        ],
+        [
+          "For the builder",
+          "LEGO’s Concorde is an adult building project and a display piece in one. The official listing specifies 2,083 pieces and an age recommendation of 18+. That makes it a better fit for someone who enjoys a detailed build than someone who wants a small ready-made object. The display footprint matters: measure the shelf rather than judging scale from product photographs. Leave time to build it, too; the project itself is part of the gift."
+        ],
+        [
+          "For the collector",
+          "A finished aircraft model is an alternative when building is not the attraction. The Cessna 172 mahogany model is a starting point for someone connected to light aircraft, especially if the type appears in their own flying memories. Check size, material and stand details at the retailer. Collectors may care about exact variants and liveries, so an apparently small detail can determine whether the model fits their collection."
+        ],
+        [
+          "For everyday enthusiasm",
+          "A cap, shirt or holiday ornament lets someone enjoy the interest without dedicating a shelf to it. Match the aircraft brand or display team to the person. For someone who likes following real airport activity, ATC.com provides information about the ATC listening app. This guide is made by the team behind ATC; that connection is disclosed so you can weigh our recommendation."
+        ],
+        [
+          "Keep technical gifts off the surprise list",
+          "An enthusiast does not necessarily need an aviation headset, kneeboard or flight training equipment. Those are specialized tools. Unless the recipient has asked for them, use the budget on a gift related to the part of aviation they already enjoy. If they are considering learning to fly, a conversation with a local flight school can help you explore an introductory experience and its booking terms."
+        ]
+      ]
+    },
+    {
+      "slug": "last-minute-pilot-gifts",
+      "title": "Last-minute pilot gifts when shipping is uncertain",
+      "short": "When you’ve left it late",
+      "description": "How to choose a last-minute gift for a pilot, including email gift cards and a checklist for delivery, redemption and meaningful presentation.",
+      "intro": "When the holiday is close, separate what you can buy today from what will actually reach the recipient in time. A digital gift with confirmed delivery is a better plan than an uncertain shipping promise.",
+      "picks": [
+        "gift-card"
+      ],
+      "sections": [
+        [
+          "Start with a verified digital option",
+          "Sporty’s offers an email gift card with immediate or scheduled delivery described on its product page. That makes it a useful option when you cannot confidently choose a specific accessory. Check the available amounts, recipient address and delivery setting during checkout. A product page saying digital does not mean every order will arrive instantly under every circumstance; payment review and email filtering can still affect receipt."
+        ],
+        [
+          "Make a gift card feel personal",
+          "Explain what you imagined the gift contributing toward: the flight bag they have mentioned, equipment for a new stage of training or something they can choose for an upcoming trip. Avoid promising that the amount covers an item unless you checked the current delivered price. A handwritten note or a small printed card can make the presentation thoughtful without pretending you have purchased a specific product."
+        ],
+        [
+          "Check the fine details before paying",
+          "Confirm whether the gift is delivered to you or directly to the recipient, whether you can schedule it, and how redemption works. Double-check the email address and retain the receipt separately from any gift-card code. Read the refund and expiration terms on the merchant’s site. If you are gifting a subscription, verify whether the recipient can redeem it on an existing account and whether renewal is automatic."
+        ],
+        [
+          "Do not confuse shipping with arrival",
+          "Same-day shipping means dispatch, not guaranteed delivery by your celebration. The relevant estimate is the one for the destination and service selected at checkout. Weather, weekends and fulfillment delays may change it. If arrival is uncertain, give an honest note about what is on the way instead of implying that it will be there on a date the merchant has not guaranteed."
+        ],
+        [
+          "If you want to gift an aviation experience",
+          "Call the flight school or experience provider directly to confirm that it sells gift certificates and what is included. Ask about booking availability, cancellation, recipient requirements and expiration. Do not present a flight as booked unless it actually is. For app-based gifts, use the provider’s official gifting flow where available; do not share an account password or assume a personal app purchase transfers to someone else."
+        ]
+      ]
+    },
+    {
+      "slug": "buying-a-pilot-headset-as-a-gift",
+      "title": "Buying a pilot headset as a gift: choose it together",
+      "short": "Before you buy a headset",
+      "description": "A practical gift-buying checklist for aviation headsets: aircraft connectors, power, fit, existing equipment and return terms.",
+      "intro": "A headset is one of the most personal—and expensive—gifts on a pilot’s wishlist. The smart move is to preserve the excitement of the gift while letting the pilot choose the exact version.",
+      "picks": [
+        "bose",
+        "lightspeed",
+        "gift-card"
+      ],
+      "sections": [
+        [
+          "Ask for the exact product link",
+          "A model name alone may not identify the right headset. Different configurations can use different aircraft connections and power arrangements. Ask the recipient for the precise retailer link and selected options, then confirm those options at checkout. A headset that is right for one aircraft may require a different setup in another. If they regularly fly multiple types, let them decide how they want to handle that."
+        ],
+        [
+          "Fit is not a specification sheet",
+          "Comfort depends on the person as well as the product. Glasses, head shape and personal preferences all matter. A high price does not guarantee the recipient will like the fit. Give them an opportunity to try the headset where possible, and read return conditions before ordering. If there is a restocking fee, a limited trial window or a restriction once used, factor it into the decision."
+        ],
+        [
+          "Two candidates to discuss",
+          "The Bose A30 and Lightspeed Zulu 3 are examples of premium aviation headsets available from the linked retailer. Both belong on a conversation list, not an automatic ranking. This guide has not performed a head-to-head test. Use the product pages to check the current configuration, included accessories and warranty information, then ask the pilot which they actually want. Their existing equipment may already satisfy their needs."
+        ],
+        [
+          "Make the surprise a contribution",
+          "If you cannot verify every detail, give a contribution toward the chosen headset or offer to buy it together. You can still make the presentation personal: a note recognizing a training milestone or a new flying role can carry the occasion. Be clear whether you are covering a fixed amount or the full cost, including any required accessories, tax and shipping."
+        ],
+        [
+          "Before the order is final",
+          "Confirm the exact connector and power choice, the retailer’s return policy, the warranty provider and whether the recipient already owns the model. Check delivery to their location. Do not buy an adapter to fix an uncertain choice without the pilot’s input. A few direct questions now are preferable to a costly exchange after the gift is opened."
+        ]
       ]
     }
   ]

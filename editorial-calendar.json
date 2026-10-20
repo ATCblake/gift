@@ -1,0 +1,565 @@
+[
+  {
+    "date": "2026-10-21",
+    "title": "How to choose a gift for your pilot partner",
+    "cluster": "Gift guides",
+    "status": "ready",
+    "slug": "gifts-for-a-pilot-partner",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": []
+  },
+  {
+    "date": "2026-10-22",
+    "title": "First-solo gifts that remember the actual flight",
+    "cluster": "Gift guides",
+    "status": "ready",
+    "slug": "first-solo-gift-ideas",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": []
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Aviation stocking stuffers under $25",
+    "cluster": "Gift guides",
+    "status": "ready",
+    "slug": "aviation-stocking-stuffers-under-25",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": []
+  },
+  {
+    "date": "2026-10-24",
+    "title": "LEGO Concorde or a finished aircraft model?",
+    "cluster": "Gift guides",
+    "status": "ready",
+    "slug": "lego-concorde-or-aircraft-model",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": []
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Before buying a flight bag as a gift",
+    "cluster": "Gift guides",
+    "status": "ready",
+    "slug": "flight-bag-gift-checklist",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": []
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Choosing an aviation T-shirt they’ll actually wear",
+    "cluster": "Gift guides",
+    "status": "ready",
+    "slug": "choosing-an-aviation-tshirt-gift",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": []
+  },
+  {
+    "date": "2026-10-27",
+    "title": "A pilot gift card or a physical gift: which is better?",
+    "cluster": "Gift guides",
+    "status": "ready",
+    "slug": "pilot-gift-card-or-physical-gift",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": []
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Five questions to ask before gifting a pilot headset",
+    "cluster": "headsets",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/bose-a30-anr-aviation-headset-battery-powered-with-bluetooth",
+      "https://www.pilotmall.com/products/lightspeed-new-zulu-anr-headset",
+      "https://www.sportys.com/sporty-s-email-gift-card.html"
+    ],
+    "slug": "headset-gift-questions"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "How to choose a pilot kneeboard gift",
+    "cluster": "pilot-gear",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.sportys.com/flight-gear-rotating-ipad-kneeboard.html",
+      "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+      "https://www.sportys.com/sporty-s-email-gift-card.html"
+    ],
+    "slug": "choosing-a-pilot-kneeboard"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Gifts for a Cessna fan: models, caps and everyday ideas",
+    "cluster": "toys-models",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models",
+      "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap",
+      "https://www.pilotmall.com/products/cessna-182-officially-licensed-t-shirt"
+    ],
+    "slug": "gifts-for-a-cessna-fan"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Gift receipts and returns: a pilot gift checklist",
+    "cluster": "occasions",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.sportys.com/sporty-s-email-gift-card.html",
+      "https://www.sportys.com/flight-gear-stealth-bag.html",
+      "https://www.pilotmall.com/products/bose-a30-anr-aviation-headset-battery-powered-with-bluetooth"
+    ],
+    "slug": "pilot-gift-receipt-checklist"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Aviation Christmas ornaments: small gifts with a story",
+    "cluster": "toys-models",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/kurt-adler-4-5-navy-blue-angeles-jet-ornament",
+      "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models"
+    ],
+    "slug": "aviation-christmas-ornament-gifts"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "How to set a headset gift budget for a student pilot",
+    "cluster": "headsets",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/bose-a30-anr-aviation-headset-battery-powered-with-bluetooth",
+      "https://www.pilotmall.com/products/lightspeed-new-zulu-anr-headset",
+      "https://www.sportys.com/sporty-s-email-gift-card.html"
+    ],
+    "slug": "headset-budget-for-student-pilots"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Choosing a pilot cap as a gift",
+    "cluster": "occasions",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap",
+      "https://www.pilotmall.com/products/cessna-182-officially-licensed-t-shirt"
+    ],
+    "slug": "choosing-a-pilot-cap"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "How to organize a group gift for a pilot",
+    "cluster": "occasions",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/bose-a30-anr-aviation-headset-battery-powered-with-bluetooth",
+      "https://www.pilotmall.com/products/lightspeed-new-zulu-anr-headset",
+      "https://www.sportys.com/sporty-s-email-gift-card.html"
+    ],
+    "slug": "group-gift-for-a-pilot"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Is a flight-bag light a good gift for a pilot?",
+    "cluster": "pilot-gear",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.sportys.com/flight-gear-universal-aviator-s-light.html",
+      "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+      "https://www.sportys.com/flight-gear-stealth-bag.html"
+    ],
+    "slug": "flight-bag-light-gift"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Turn an airplane building set into a shared gift",
+    "cluster": "toys-models",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.lego.com/en-us/product/concorde-10318",
+      "https://www.sportys.com/sporty-s-email-gift-card.html"
+    ],
+    "slug": "aviation-build-night-gift"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "A pilot birthday gift checklist for partners and friends",
+    "cluster": "occasions",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models",
+      "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap",
+      "https://www.sportys.com/flight-gear-stealth-bag.html",
+      "https://www.sportys.com/sporty-s-email-gift-card.html"
+    ],
+    "slug": "pilot-birthday-gift-checklist"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "A simple wishlist template for pilots and aviation fans",
+    "cluster": "pilot-gear",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/bose-a30-anr-aviation-headset-battery-powered-with-bluetooth",
+      "https://www.sportys.com/flight-gear-rotating-ipad-kneeboard.html",
+      "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models"
+    ],
+    "slug": "pilot-gift-wishlist-template"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "How to plan holiday shipping for a pilot gift",
+    "cluster": "occasions",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.sportys.com/sporty-s-email-gift-card.html",
+      "https://www.pilotmall.com/products/kurt-adler-4-5-navy-blue-angeles-jet-ornament",
+      "https://www.sportys.com/flight-gear-stealth-bag.html"
+    ],
+    "slug": "pilot-gift-shipping-plan"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Pilot gifts when you do not know what they fly",
+    "cluster": "occasions",
+    "status": "ready",
+    "brief": "Complete original article in posts.json. Publishes on this date after a successful site build.",
+    "sources": [
+      "https://www.pilotmall.com/products/cessna-navy-scarlet-patch-trucker-cap",
+      "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500",
+      "https://www.sportys.com/sporty-s-email-gift-card.html"
+    ],
+    "slug": "pilot-gifts-without-knowing-aircraft"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Aviation art: choose the aircraft before the frame",
+    "cluster": "Home",
+    "status": "planned",
+    "brief": "Source artists, print dimensions, lead times and licensing; do not scrape artwork.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Gifts for a new airline pilot",
+    "cluster": "Milestone",
+    "status": "planned",
+    "brief": "Interview a recent hire; avoid assuming company uniform or equipment requirements.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Aviation ornaments by interest and aircraft",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Research a varied collection with exact aircraft/team names.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-14",
+    "title": "How to give flight-school credit",
+    "cluster": "Experience",
+    "status": "planned",
+    "brief": "Confirm actual school gift policies and refund/expiry terms.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Personalized pilot gifts: spelling, lead times and returns",
+    "cluster": "Personalization",
+    "status": "planned",
+    "brief": "Verify sellers and production windows; no unsupported delivery promises.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Aviation gifts for someone who likes building things",
+    "cluster": "Models",
+    "status": "planned",
+    "brief": "Compare actual build formats and age recommendations from manufacturers.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Gift-ready aviation photography prints",
+    "cluster": "Home",
+    "status": "planned",
+    "brief": "Find photographer-owned shops and ask permission before reusing images.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Pilot retirement gifts with a personal history",
+    "cluster": "Milestone",
+    "status": "planned",
+    "brief": "Use aircraft/career connections; provide a family interview checklist.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-19",
+    "title": "How to buy a pilot kneeboard as a gift",
+    "cluster": "Equipment",
+    "status": "planned",
+    "brief": "Build a current model/case compatibility checklist with manufacturer sources.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Aviation experiences you can give without picking a date",
+    "cluster": "Experience",
+    "status": "planned",
+    "brief": "Verify gift certificates and booking terms from actual providers.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Pilot wishlists: a shareable equipment checklist",
+    "cluster": "Tool",
+    "status": "planned",
+    "brief": "Create a printable or local-only worksheet with exact model/connector fields.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Gifts for an aviation-loving parent",
+    "cluster": "Recipient",
+    "status": "planned",
+    "brief": "Focus on shared memories and time; avoid simply renaming the main gift guide.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-23",
+    "title": "What makes an aviation gift worth the extra money?",
+    "cluster": "Buying advice",
+    "status": "planned",
+    "brief": "Compare materials, personalization and usefulness without inventing durability tests.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Small gifts for a flight crew holiday exchange",
+    "cluster": "Budget",
+    "status": "planned",
+    "brief": "Verify price caps and neutral choices; distinguish crew from general fans.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Aviation subscription gifts: questions before purchase",
+    "cluster": "Digital",
+    "status": "planned",
+    "brief": "Compare verified gifting, renewal and existing-account redemption terms.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-26",
+    "title": "How to spot a misleading holiday aviation deal",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Show price-history and variant checks; no invented historic prices.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-27",
+    "title": "Black Friday aviation gift deals: verified prices only",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Research live offers that morning; record exact configurations, current and comparison prices, seller and expiry. Do not infer a discount from marketing copy.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-28",
+    "title": "How to split the cost of a pilot’s big gift",
+    "cluster": "Buying advice",
+    "status": "planned",
+    "brief": "A practical family coordination checklist with no payment collection on site.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-29",
+    "title": "Choosing an aviation gift for your host",
+    "cluster": "Occasion",
+    "status": "planned",
+    "brief": "Small, portable choices and a personal note; avoid equipment-heavy suggestions.",
+    "sources": []
+  },
+  {
+    "date": "2026-11-30",
+    "title": "Cyber Monday pilot gifts: live offer comparison",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Recheck actual merchant offers and delivered costs. Publish only verified comparisons; no invented countdowns or discounts.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-01",
+    "title": "Black Friday pilot deals: verified listings only",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Publish only after live verification; otherwise update checklist rather than fake deals.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-02",
+    "title": "Small-business aviation gifts and independent makers",
+    "cluster": "Makers",
+    "status": "planned",
+    "brief": "Research maker-owned stores and obtain imagery permission.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-03",
+    "title": "Aviation gifts that do not need a clothing size",
+    "cluster": "Buying advice",
+    "status": "planned",
+    "brief": "Compare non-apparel options and remaining compatibility checks.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-04",
+    "title": "Cyber Monday digital aviation gifts",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Verify live offers, gifting mechanics and account eligibility.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-05",
+    "title": "December pilot gift planner",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Refresh merchant availability and actual recipient-location delivery guidance.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-06",
+    "title": "Aircraft models for an aviation office",
+    "cluster": "Home",
+    "status": "planned",
+    "brief": "Compare real measured models, stands and finish; no claims of hands-on testing.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-07",
+    "title": "Gifts for helicopter enthusiasts",
+    "cluster": "Aircraft",
+    "status": "planned",
+    "brief": "Research actual helicopter-specific products and avoid airplane substitutions.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-08",
+    "title": "How to pair a small aviation gift with a gift card",
+    "cluster": "Presentation",
+    "status": "planned",
+    "brief": "Create three coherent bundles using current prices and original presentation images.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-09",
+    "title": "Aviation museum memberships as gifts",
+    "cluster": "Experience",
+    "status": "planned",
+    "brief": "Research selected museums and verify gifting, location and member benefits.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-10",
+    "title": "Flight simulator gifts: compatibility comes first",
+    "cluster": "Equipment",
+    "status": "planned",
+    "brief": "Research current platform and controller requirements from manufacturers.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-11",
+    "title": "Aviation gifts for a non-pilot partner",
+    "cluster": "Recipient",
+    "status": "planned",
+    "brief": "Focus on shared trips and interests rather than assuming they want training.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-12",
+    "title": "A pilot gift under $20, including a realistic shipping plan",
+    "cluster": "Budget",
+    "status": "planned",
+    "brief": "Verify delivered costs by example destination; clearly label location dependence.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-13",
+    "title": "How to present an aviation experience gift",
+    "cluster": "Presentation",
+    "status": "planned",
+    "brief": "Provide an honest printable note that does not imply an unbooked reservation.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-14",
+    "title": "Holiday returns checklist for aviation gifts",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Verify retailer return windows and exclusions, including gift cards.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-15",
+    "title": "Personalized aviation gifts: when to switch to another option",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Check real production cutoffs and suggest honest alternatives.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-16",
+    "title": "Digital gift cards for pilots: redemption comparison",
+    "cluster": "Digital",
+    "status": "planned",
+    "brief": "Compare verified retailers and restrictions in a dated table.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-17",
+    "title": "Aviation gifts available locally: how to check",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Explain store pickup verification; do not invent local availability.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-18",
+    "title": "Late-December gift decisions: shipped, pickup, or digital",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Use destination-specific delivery estimates and verified digital options.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-19",
+    "title": "A thoughtful note to go with a pilot gift",
+    "cluster": "Presentation",
+    "status": "planned",
+    "brief": "Original adaptable note examples for first solo, graduation and a partner.",
+    "sources": []
+  },
+  {
+    "date": "2026-12-20",
+    "title": "The final holiday aviation gift checklist",
+    "cluster": "Holiday",
+    "status": "planned",
+    "brief": "Refresh last-minute guide, confirm digital terms and provide a concise decision tree.",
+    "sources": []
+  }
+]
