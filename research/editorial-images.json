@@ -1,0 +1,89 @@
+{
+  "figma_file": "https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=996-1827",
+  "covers": {
+    "gift-edit": {
+      "alt": "Cessna 172 flying overhead against a blue-gray sky",
+      "caption": "Cessna 172 photograph by Cody F / Unsplash."
+    },
+    "headsets": {
+      "alt": "Bose A30 aviation headset in an editorial headset shortlist graphic",
+      "caption": "Bose A30 product image via Pilot Mall. Cover illustration; compare exact models in the guide."
+    },
+    "toys-models": {
+      "alt": "LEGO Icons Concorde display model on a warm cream background",
+      "caption": "LEGO Icons Concorde. Product image from LEGO."
+    },
+    "student-pilots": {
+      "alt": "Cessna cockpit beside a pilot logbook",
+      "caption": "Cockpit photograph by ALPEN AIR / Unsplash; logbook image via Pilot Mall."
+    },
+    "pilot-gear": {
+      "alt": "Flight bag, pilot logbook and multifunction pen",
+      "caption": "Editorial collection of flight-bag accessories. Product images via the linked retailers."
+    },
+    "by-budget": {
+      "alt": "Cessna cap, aviation light and multifunction pen",
+      "caption": "Small aviation gift ideas. Product images via the linked retailers."
+    },
+    "partners": {
+      "alt": "Cessna in flight beside a model Cessna on a stand",
+      "caption": "Photograph by Cody F / Unsplash; model image via Pilot Mall."
+    },
+    "occasions": {
+      "alt": "Blue and white Cessna Grand Caravan in flight",
+      "caption": "Cessna Grand Caravan photograph by Nick Morales / Unsplash."
+    },
+    "books": {
+      "alt": "Air France Concorde displayed in the Smithsonian aviation museum",
+      "caption": "Aviation history illustration: photograph by Tomas Martinez / Unsplash."
+    },
+    "experiences": {
+      "alt": "Concorde and other aircraft displayed in an aviation museum",
+      "caption": "Concorde at the Smithsonian. Photograph by Tomas Martinez / Unsplash."
+    },
+    "flight-simulators": {
+      "alt": "Instrument panel and controls inside a real Cessna cockpit",
+      "caption": "Illustrative photograph of a real Cessna cockpit, not a simulator product. ALPEN AIR / Unsplash."
+    },
+    "collectors": {
+      "alt": "Display model of a Cessna 172 on a wooden stand",
+      "caption": "Cessna 172 display model. Product image via Pilot Mall."
+    }
+  },
+  "guideOverrides": {
+    "best-pilot-gift-ideas": "gift-edit",
+    "gifts-for-pilots-who-have-everything": "gift-edit",
+    "gifts-for-aviation-lovers": "collectors",
+    "aircraft-model-gift-guide": "collectors",
+    "gifts-for-pilot-wives": "occasions",
+    "aviation-gifts-for-plane-spotters": "occasions",
+    "pilot-gift-shopping-mistakes": "gift-edit"
+  },
+  "photography": [
+    {
+      "file": "photos/cessna.jpg",
+      "photographer": "Cody F",
+      "source": "https://unsplash.com/photos/white-airplane-flying-in-the-sky-during-daytime-O0Tr0mrzXLA"
+    },
+    {
+      "file": "photos/caravan.jpg",
+      "photographer": "Nick Morales",
+      "source": "https://unsplash.com/photos/white-and-blue-n4118k-plane-6GrUnYvWUZk"
+    },
+    {
+      "file": "photos/cockpit.jpg",
+      "photographer": "ALPEN AIR",
+      "source": "https://unsplash.com/photos/airplane-cockpit-with-seats-and-control-panel-odNYw5Ospvs"
+    },
+    {
+      "file": "photos/museum.jpg",
+      "photographer": "Tomas Martinez",
+      "source": "https://unsplash.com/photos/a-large-white-airplane-sitting-inside-of-a-hangar-bNSIcEBdsZ0"
+    }
+  ],
+  "photography_license": "https://unsplash.com/license",
+  "cover_dimensions": {
+    "width": 900,
+    "height": 600
+  }
+}

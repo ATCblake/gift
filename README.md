@@ -101,3 +101,12 @@ After Search Console is connected, review indexed pages, impressions, query rele
 - Dec 14–20: recheck destination-specific delivery and digital options. Do not invent universal shipping cutoffs.
 
 Google references: https://developers.google.com/search/docs/fundamentals/creating-helpful-content ; https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl ; https://developers.google.com/search/docs/essentials/spam-policies .
+
+
+## Editorial imagery (October 20 refresh)
+
+- The [editable Figma artwork board](https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=996-1827) contains twelve cover compositions. Exported JPEGs live in `dist/assets/editorial/`.
+- `research/editorial-images.json` maps topics and selected guide slugs to cover imagery, alt text and captions, and records photography sources. Source photographs are preserved in `research/photos/`.
+- All published and scheduled guides receive a cover, contextual caption, social image and Article image metadata through `artFor`. Covers illustrate topics; they do not imply every photographed product appears in every list.
+- The approved live-text wordmark is unchanged. The site remains a guide publisher with no storefront or checkout. Brand mentions and app promotions requested for removal have been removed from public copy and styles.
+- Tests cover imagery and removed-brand regressions alongside the existing scheduling, metadata and internal-link checks.
