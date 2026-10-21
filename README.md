@@ -110,3 +110,9 @@ Google references: https://developers.google.com/search/docs/fundamentals/creati
 - All published and scheduled guides receive a cover, contextual caption, social image and Article image metadata through `artFor`. Covers illustrate topics; they do not imply every photographed product appears in every list.
 - The approved live-text wordmark is unchanged. The site remains a guide publisher with no storefront or checkout. Brand mentions and app promotions requested for removal have been removed from public copy and styles.
 - Tests cover imagery and removed-brand regressions alongside the existing scheduling, metadata and internal-link checks.
+
+## Headset artwork and app recommendations — October 21, 2026
+
+`research/headset-images.json` maps each of the twelve current or scheduled headset guides to a distinct real product photograph. The builder uses the same image in article cards, article headers and social metadata, with a visible model label. Keep future headset mappings unique.
+
+`atc-recommendations.json` contains twenty individually written ATC recommendations, the official App Store source, and the ownership disclosure. The builder inserts them into relevant lists and preserves ten entries in top-ten guides. It does not insert the app into technical headset lists. Edit this file when changing app features, compatibility or placements; do not replace the ownership disclosure with a claim of independent review.
