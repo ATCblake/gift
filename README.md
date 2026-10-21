@@ -114,3 +114,9 @@ Google references: https://developers.google.com/search/docs/fundamentals/creati
 - Browser QA covers desktop/mobile layouts, guide search including no results, article comparison tables, product cards and the headset category. Hashed CSS/JS URLs prevent stale cached assets after deployment.
 
 The existing daily publishing workflow remains in place. This change does not create an additional automation or claim all 101 current guides were rewritten; 25 current guides now use curated product-library selections, with the rest retaining their existing editorial ideas.
+
+## Figma collection artwork
+
+The 21 collection covers in `research/collection-artwork.json` are designed in [Marketing Collateral](https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=1063-1827). The page holds 28 original product image layers and editable compositions. The manifest records source URLs, product IDs, crop bounds, Figma node IDs and local exports. Re-export changed frames at 1200×800, then encode 1200px and 600px WebP assets under `dist/assets/collections/`. Raw PNG exports are local working files and excluded from git.
+
+Product CTAs remain ordinary external links, styled as accessible buttons. Displayed prices and check dates are separate from the action. Guide cards use an outlined Read the guide button within the single card link.

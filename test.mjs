@@ -7,6 +7,8 @@ assert.equal(launch.length,100);assert.equal(new Set(all.map(g=>g.slug)).size,al
 for(const p of library){for(const key of ['model','name','source','price_checked_at','compatibility','intended_recipient','local_image'])assert.ok(typeof p[key]==='string'&&p[key].length,'Missing '+key+' in '+p.id);assert.equal(new URL(p.source).protocol,'https:');assert.match(p.price_checked_at,/^\d{4}-\d{2}-\d{2}$/);assert.ok(p.price===null||typeof p.price==='number'&&p.price>0);assert.ok(p.strengths.length&&p.limitations.length);assert.ok(fs.existsSync('dist'+p.local_image),'Missing image: '+p.id)}
 for(const [slug,m] of Object.entries(mapping)){assert.ok(all.some(g=>g.slug===slug),'Unknown guide '+slug);assert.ok(m.description.length<=160);assert.equal(new Set(m.product_ids).size,m.product_ids.length);for(const id of m.product_ids)assert.ok(byId[id],'Unknown product '+id)}
 for(const [slug,budget] of [['pilot-gifts-under-50',50],['pilot-gifts-under-100',100],['pilot-gifts-on-a-25-dollar-budget',25]])for(const id of mapping[slug].product_ids)assert.ok(byId[id].price>0&&byId[id].price<=budget,'Budget mismatch: '+slug+' '+id);
+const artwork=read('research/collection-artwork.json');
+for(const cover of artwork.collections){assert.ok(mapping[cover.slug],'Unknown collection guide');for(const id of cover.products)assert.ok(mapping[cover.slug].product_ids.includes(id),'Cover product absent from guide: '+cover.slug+' '+id);for(const asset of [cover.src,cover.thumbnail])assert.ok(fs.statSync('dist'+asset).size>1000,'Empty collection artwork: '+asset);}
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(d=>d.isDirectory()?walk(path.join(dir,d.name)):[path.join(dir,d.name)])}
 const htmlFor=slug=>fs.readFileSync('dist/'+slug+'/index.html','utf8');
 try{

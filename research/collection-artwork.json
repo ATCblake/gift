@@ -1,0 +1,763 @@
+{
+  "fileKey": "5Zbx11Z7gme1yHueje5deg",
+  "pageId": "959:819",
+  "size": [
+    1200,
+    800
+  ],
+  "assets": [
+    {
+      "id": "snoopy",
+      "name": "Peanuts Flying Ace Snoopy, 8-inch",
+      "local": "/assets/products/snoopy.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/plush-plush-peanuts-snoopy-sitting-flying-ace-8-1247004467.webp?v=1783098937",
+      "size": [
+        696,
+        696
+      ],
+      "crop": [
+        87,
+        0,
+        659,
+        666
+      ],
+      "nodeId": "1059:1829"
+    },
+    {
+      "id": "concorde",
+      "name": "LEGO Icons Concorde",
+      "local": "/assets/concorde.jpg",
+      "source": "https://www.lego.com/cdn/cs/set/assets/bltdc7097183ba14c89/10318.png?fit=bounds&format=jpg&quality=85&width=1200&height=1200&dpr=1",
+      "size": [
+        1200,
+        356
+      ],
+      "crop": [
+        0,
+        0,
+        1200,
+        356
+      ],
+      "nodeId": "1059:1830"
+    },
+    {
+      "id": "altimeter-clock",
+      "name": "Trintec 14-inch Altimeter Wall Clock",
+      "local": "/assets/products/altimeter-clock.png",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/trintec-14-inch-classic-altimeter-aviation-instrument-wall-clock-9060-14-1219626568.png?v=1770412718",
+      "size": [
+        600,
+        600
+      ],
+      "crop": [
+        0,
+        0,
+        600,
+        600
+      ],
+      "nodeId": "1059:1831"
+    },
+    {
+      "id": "bag",
+      "name": "Flight Gear Stealth Bag",
+      "local": "/assets/bag.jpg",
+      "source": "https://www.sportys.com/media/catalog/product/cache/52269b224cb1dcf0a2edf35e12571e4c/1/0/10819-020_web.jpg",
+      "size": [
+        265,
+        265
+      ],
+      "crop": [
+        27,
+        0,
+        238,
+        265
+      ],
+      "nodeId": "1059:1832"
+    },
+    {
+      "id": "logbook",
+      "name": "ASA pilot logbook",
+      "local": "/assets/logbook.jpg",
+      "source": "https://www.pilotmall.com/cdn/shop/products/logbooks-asa-pilot-logbook-black-31481620234283.jpg?crop=center&height=630&v=1737766431&width=1200",
+      "size": [
+        630,
+        630
+      ],
+      "crop": [
+        0,
+        136,
+        630,
+        494
+      ],
+      "nodeId": "1059:1833"
+    },
+    {
+      "id": "plotter",
+      "name": "ASA CP-1 Fixed Plotter",
+      "local": "/assets/products/plotter.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/plotters-asa-fixed-plotter-cp-1-for-vfr-navigation-1263151444.jpg?v=1792177569",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        0,
+        301,
+        900,
+        600
+      ],
+      "nodeId": "1059:1834"
+    },
+    {
+      "id": "crew-backpack",
+      "name": "Travelpro Pilot Flight Backpack",
+      "local": "/assets/products/crew-backpack.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/flight-bags-travelpro-pilot-flight-backpack-hands-free-laptop-backpack-for-flight-crew-1260133307.jpg?v=1790543349",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        88,
+        0,
+        812,
+        900
+      ],
+      "nodeId": "1059:1835"
+    },
+    {
+      "id": "owala",
+      "name": "Owala FreeSip 24 oz, Roswell Air Races",
+      "local": "/assets/products/owala.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/kitchen-barware-owala-freesip-24oz-roswell-air-races-black-thermal-bottle-1253156657.jpg?v=1785985869",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        116,
+        0,
+        784,
+        900
+      ],
+      "nodeId": "1059:1837"
+    },
+    {
+      "id": "texan-kit",
+      "name": "COBI USAF T-6 Texan II",
+      "local": "/assets/products/texan-kit.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/blocks-usaf-beechcraft-t-6-texan-ii-192pc-set-cobi-blocks-1146719112.webp?v=1741838034",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        1,
+        125,
+        899,
+        775
+      ],
+      "nodeId": "1059:1838"
+    },
+    {
+      "id": "blue-angels-toy",
+      "name": "Toysmith F-18 Blue Angels Pullback Jet",
+      "local": "/assets/products/blue-angels-toy.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/pull-back-planes-toysmith-f-18-blue-angel-jet-diecast-airplane-1-pc-assorted-styles-33953748516907.webp?v=1737739971",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        0,
+        126,
+        900,
+        775
+      ],
+      "nodeId": "1059:1839"
+    },
+    {
+      "id": "gear-bag",
+      "name": "StrongBags Stratos AdaptX",
+      "local": "/assets/products/gear-bag.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/flight-bags-strongbags-stratos-adaptx-pilot-gear-bag-1237848432.jpg?v=1778533961",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        32,
+        0,
+        868,
+        900
+      ],
+      "nodeId": "1059:1840"
+    },
+    {
+      "id": "warhawk-socks",
+      "name": "P-40 Warhawk Crew Socks",
+      "local": "/assets/products/warhawk-socks.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/p-40-warhawk-shark-mouth-crew-socks-1231176045.jpg?v=1775315710",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        68,
+        4,
+        830,
+        899
+      ],
+      "nodeId": "1059:1841"
+    },
+    {
+      "id": "airliner-kit",
+      "name": "Brixies Commercial Airliner",
+      "local": "/assets/products/airliner-kit.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/blocks-brixies-airplane-building-blocks-level-3-construction-kit-1195654031.webp?v=1759304382",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        0,
+        124,
+        900,
+        776
+      ],
+      "nodeId": "1059:1842"
+    },
+    {
+      "id": "snoopy-keychain",
+      "name": "Flying Ace Snoopy Clip-On",
+      "local": "/assets/products/snoopy-keychain.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/plush-flying-ace-snoopy-clip-on-plush-5-keychain-1229808773.jpg?v=1774732870",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        267,
+        28,
+        701,
+        868
+      ],
+      "nodeId": "1059:1843"
+    },
+    {
+      "id": "airliner-ornament",
+      "name": "Kurt Adler Airliner Ornament",
+      "local": "/assets/products/airliner-ornament.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/christmas-kurt-adler-airliner-hanging-ornament-1204822441.webp?v=1763104173",
+      "size": [
+        642,
+        626
+      ],
+      "crop": [
+        31,
+        0,
+        602,
+        470
+      ],
+      "nodeId": "1059:1845"
+    },
+    {
+      "id": "pen",
+      "name": "SKILCRAFT B3 Aviator pen",
+      "local": "/assets/pen.jpg",
+      "source": "https://www.pilotmall.com/cdn/shop/files/skilcraft-b3-aviator-multifunction-pen-and-pencil-black-red-ink-black-barrel-1219142500.webp?crop=center&height=630&v=1770125020&width=1200",
+      "size": [
+        800,
+        630
+      ],
+      "crop": [
+        0,
+        219,
+        800,
+        410
+      ],
+      "nodeId": "1059:1846"
+    },
+    {
+      "id": "skyhawk",
+      "name": "Cessna 172 Skyhawk model",
+      "local": "/assets/skyhawk.jpg",
+      "source": "https://www.pilotmall.com/cdn/shop/products/aircraft-models-cessna-172-skyhawk-sp-large-mahogany-model-31481740132395.jpg?crop=center&height=630&v=1737665802&width=1200",
+      "size": [
+        800,
+        630
+      ],
+      "crop": [
+        95,
+        113,
+        647,
+        511
+      ],
+      "nodeId": "1059:1847"
+    },
+    {
+      "id": "mustang-model",
+      "name": "P-51D “Old Crow” Mahogany Model",
+      "local": "/assets/products/mustang-model.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/aircraft-models-north-american-p-51d-mustang-old-crow-large-mahogany-model-1246545473.jpg?v=1782846818",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        137,
+        127,
+        830,
+        766
+      ],
+      "nodeId": "1059:1848"
+    },
+    {
+      "id": "tristar-model",
+      "name": "Lockheed L-1011 TriStar Model",
+      "local": "/assets/products/tristar-model.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/aircraft-models-lockheed-l-1011-large-mahogany-model-1246545497.jpg?v=1782847778",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        0,
+        151,
+        776,
+        750
+      ],
+      "nodeId": "1059:1849"
+    },
+    {
+      "id": "bomber-book",
+      "name": "Bomber Boys: WWII Flight Jacket Art",
+      "local": "/assets/products/bomber-book.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/non-training-books-and-dvds-bomber-boys-wwii-flight-jacket-art-coffee-table-book-1190036689.jpg?v=1756474676",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "nodeId": "1059:1850"
+    },
+    {
+      "id": "aviation-dictionary",
+      "name": "ASA Dictionary of Aeronautical Terms, 8th edition",
+      "local": "/assets/products/aviation-dictionary.png",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/asa-dictionary-of-aeronautical-terms-essential-aviation-reference-1219511151.png?v=1770327337",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        74,
+        0,
+        826,
+        900
+      ],
+      "nodeId": "1059:1851"
+    },
+    {
+      "id": "student-manual",
+      "name": "The Student Pilot’s Flight Manual, 12th edition",
+      "local": "/assets/products/student-manual.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/private-pilot-asa-the-student-pilot-s-flight-manual-13th-edition-1157128856.jpg?v=1745242318",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        91,
+        0,
+        809,
+        900
+      ],
+      "nodeId": "1059:1853"
+    },
+    {
+      "id": "sky-yoke",
+      "name": "Thrustmaster TCA Sky Yoke, Xbox/PC",
+      "local": "/assets/products/sky-yoke.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/flight-simulation-thrustmaster-tca-sky-yoke-xbox-series-x-s-pc-1260682478.jpg?v=1790889518",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        0,
+        169,
+        900,
+        731
+      ],
+      "nodeId": "1059:1854"
+    },
+    {
+      "id": "warthog",
+      "name": "Thrustmaster HOTAS Warthog MKII",
+      "local": "/assets/products/warthog.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/flight-simulation-thrustmaster-hotas-warthog-mkii-stick-and-throttle-pc-1260682473.jpg?v=1790889157",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        0,
+        115,
+        900,
+        785
+      ],
+      "nodeId": "1059:1855"
+    },
+    {
+      "id": "airbus-grip",
+      "name": "Thrustmaster Airbus Add-On Grip",
+      "local": "/assets/products/airbus-grip.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/flight-simulation-thrustmaster-airbus-add-on-grip-pc-1260682466.jpg?v=1790888951",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        265,
+        0,
+        636,
+        900
+      ],
+      "nodeId": "1059:1856"
+    },
+    {
+      "id": "helicopter-kit",
+      "name": "Brixies Postcard Helicopter",
+      "local": "/assets/products/helicopter-kit.webp",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/files/blocks-brixies-postcard-helicopter-80-piece-building-kit-1195654042.webp?v=1759304513",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        0,
+        177,
+        900,
+        724
+      ],
+      "nodeId": "1059:1857"
+    },
+    {
+      "id": "cessna-cap",
+      "name": "Cessna patch trucker cap",
+      "local": "/assets/cessna-cap.jpg",
+      "source": "https://www.pilotmall.com/cdn/shop/products/headwear-cessna-navy-scarlet-patch-officially-licensed-trucker-cap-31481727909931.jpg?crop=center&height=630&v=1740324694&width=1200",
+      "size": [
+        800,
+        630
+      ],
+      "crop": [
+        0,
+        2,
+        800,
+        629
+      ],
+      "nodeId": "1059:1858"
+    },
+    {
+      "id": "pc12-model",
+      "name": "Pilatus PC-12 Clear-Canopy Model",
+      "local": "/assets/products/pc12-model.jpg",
+      "source": "https://cdn.shopify.com/s/files/1/2773/1296/products/aircraft-models-pilatus-pc-12-clear-canopy-large-mahogany-model-32525214416939.jpg?v=1737680751",
+      "size": [
+        900,
+        900
+      ],
+      "crop": [
+        101,
+        188,
+        846,
+        739
+      ],
+      "nodeId": "1059:1859"
+    }
+  ],
+  "collections": [
+    {
+      "slug": "best-pilot-gift-ideas",
+      "name": "Gifts for pilots, from little finds to big gestures",
+      "products": [
+        "snoopy",
+        "concorde",
+        "altimeter-clock"
+      ],
+      "background": "#F0CFB4",
+      "nodeId": "1063:1829",
+      "src": "/assets/collections/best-pilot-gift-ideas.webp",
+      "thumbnail": "/assets/collections/best-pilot-gift-ideas-600.webp"
+    },
+    {
+      "slug": "gifts-for-student-pilots",
+      "name": "Useful gifts for someone learning to fly",
+      "products": [
+        "bag",
+        "logbook",
+        "plotter"
+      ],
+      "background": "#C9DCDD",
+      "nodeId": "1063:1833",
+      "src": "/assets/collections/gifts-for-student-pilots.webp",
+      "thumbnail": "/assets/collections/gifts-for-student-pilots-600.webp"
+    },
+    {
+      "slug": "what-your-pilot-husband-wants",
+      "name": "Gifts your pilot husband might actually want",
+      "products": [
+        "crew-backpack",
+        "concorde",
+        "owala"
+      ],
+      "background": "#D7D3E8",
+      "nodeId": "1063:1837",
+      "src": "/assets/collections/what-your-pilot-husband-wants.webp",
+      "thumbnail": "/assets/collections/what-your-pilot-husband-wants-600.webp"
+    },
+    {
+      "slug": "gifts-for-wife-who-is-pilot",
+      "name": "Thoughtful gifts for a wife who flies",
+      "products": [
+        "owala",
+        "crew-backpack",
+        "snoopy"
+      ],
+      "background": "#E7D6C1",
+      "nodeId": "1063:1842",
+      "src": "/assets/collections/gifts-for-wife-who-is-pilot.webp",
+      "thumbnail": "/assets/collections/gifts-for-wife-who-is-pilot-600.webp"
+    },
+    {
+      "slug": "best-aviation-toys-and-models",
+      "name": "Airplane toys and models worth making room for",
+      "products": [
+        "snoopy",
+        "texan-kit",
+        "blue-angels-toy"
+      ],
+      "background": "#E7D980",
+      "nodeId": "1063:1846",
+      "src": "/assets/collections/best-aviation-toys-and-models.webp",
+      "thumbnail": "/assets/collections/best-aviation-toys-and-models-600.webp"
+    },
+    {
+      "slug": "best-flight-bag-gifts",
+      "name": "Flight bags for the way they actually travel",
+      "products": [
+        "crew-backpack",
+        "gear-bag",
+        "bag"
+      ],
+      "background": "#D2DFCA",
+      "nodeId": "1063:1850",
+      "src": "/assets/collections/best-flight-bag-gifts.webp",
+      "thumbnail": "/assets/collections/best-flight-bag-gifts-600.webp"
+    },
+    {
+      "slug": "pilot-gifts-under-50",
+      "name": "Small pilot gifts that feel thoughtfully chosen",
+      "products": [
+        "warhawk-socks",
+        "airliner-kit",
+        "snoopy-keychain"
+      ],
+      "background": "#F1C6B8",
+      "nodeId": "1063:1855",
+      "src": "/assets/collections/pilot-gifts-under-50.webp",
+      "thumbnail": "/assets/collections/pilot-gifts-under-50-600.webp"
+    },
+    {
+      "slug": "pilot-gifts-under-100",
+      "name": "Pilot gifts under $100, without the guesswork",
+      "products": [
+        "bag",
+        "snoopy",
+        "owala"
+      ],
+      "background": "#D4DCEB",
+      "nodeId": "1063:1859",
+      "src": "/assets/collections/pilot-gifts-under-100.webp",
+      "thumbnail": "/assets/collections/pilot-gifts-under-100-600.webp"
+    },
+    {
+      "slug": "pilot-gifts-on-a-25-dollar-budget",
+      "name": "Ten small aviation gifts on a $25 budget",
+      "products": [
+        "airliner-ornament",
+        "logbook",
+        "pen"
+      ],
+      "background": "#E6DCA6",
+      "nodeId": "1063:1863",
+      "src": "/assets/collections/pilot-gifts-on-a-25-dollar-budget.webp",
+      "thumbnail": "/assets/collections/pilot-gifts-on-a-25-dollar-budget-600.webp"
+    },
+    {
+      "slug": "aircraft-model-gift-guide",
+      "name": "A meaningful aircraft, in miniature",
+      "products": [
+        "skyhawk",
+        "mustang-model",
+        "tristar-model"
+      ],
+      "background": "#CCDCE5",
+      "nodeId": "1063:1868",
+      "src": "/assets/collections/aircraft-model-gift-guide.webp",
+      "thumbnail": "/assets/collections/aircraft-model-gift-guide-600.webp"
+    },
+    {
+      "slug": "best-aviation-books-for-gifts",
+      "name": "Six aviation books for six different readers",
+      "products": [
+        "bomber-book",
+        "aviation-dictionary",
+        "student-manual"
+      ],
+      "background": "#E9C7AC",
+      "nodeId": "1063:1872",
+      "src": "/assets/collections/best-aviation-books-for-gifts.webp",
+      "thumbnail": "/assets/collections/best-aviation-books-for-gifts-600.webp"
+    },
+    {
+      "slug": "best-flight-simulator-gift-ideas",
+      "name": "Flight simulator gifts: choose the right platform",
+      "products": [
+        "sky-yoke",
+        "warthog",
+        "airbus-grip"
+      ],
+      "background": "#D5D3E3",
+      "nodeId": "1063:1876",
+      "src": "/assets/collections/best-flight-simulator-gift-ideas.webp",
+      "thumbnail": "/assets/collections/best-flight-simulator-gift-ideas-600.webp"
+    },
+    {
+      "slug": "aviation-gifts-for-small-spaces",
+      "name": "Aviation gifts that do not take over the room",
+      "products": [
+        "helicopter-kit",
+        "airliner-kit",
+        "snoopy-keychain"
+      ],
+      "background": "#C5DBD3",
+      "nodeId": "1063:1881",
+      "src": "/assets/collections/aviation-gifts-for-small-spaces.webp",
+      "thumbnail": "/assets/collections/aviation-gifts-for-small-spaces-600.webp"
+    },
+    {
+      "slug": "gifts-for-pilots-who-have-everything",
+      "name": "For the pilot who already has the gear",
+      "products": [
+        "altimeter-clock",
+        "mustang-model",
+        "snoopy"
+      ],
+      "background": "#E4C3B0",
+      "nodeId": "1063:1885",
+      "src": "/assets/collections/gifts-for-pilots-who-have-everything.webp",
+      "thumbnail": "/assets/collections/gifts-for-pilots-who-have-everything-600.webp"
+    },
+    {
+      "slug": "gifts-for-aviation-lovers",
+      "name": "Good gifts for people who just love airplanes",
+      "products": [
+        "snoopy",
+        "concorde",
+        "airliner-kit"
+      ],
+      "background": "#DBD99D",
+      "nodeId": "1063:1889",
+      "src": "/assets/collections/gifts-for-aviation-lovers.webp",
+      "thumbnail": "/assets/collections/gifts-for-aviation-lovers-600.webp"
+    },
+    {
+      "slug": "aviation-gifts-for-plane-spotters",
+      "name": "Gifts for people who stop to watch airplanes",
+      "products": [
+        "owala",
+        "cessna-cap",
+        "tristar-model"
+      ],
+      "background": "#BCD5DB",
+      "nodeId": "1063:1894",
+      "src": "/assets/collections/aviation-gifts-for-plane-spotters.webp",
+      "thumbnail": "/assets/collections/aviation-gifts-for-plane-spotters-600.webp"
+    },
+    {
+      "slug": "gifts-for-new-private-pilots",
+      "name": "Mark a new private pilot’s next chapter",
+      "products": [
+        "skyhawk",
+        "logbook",
+        "bag"
+      ],
+      "background": "#C9D8CF",
+      "nodeId": "1063:1898",
+      "src": "/assets/collections/gifts-for-new-private-pilots.webp",
+      "thumbnail": "/assets/collections/gifts-for-new-private-pilots-600.webp"
+    },
+    {
+      "slug": "gifts-for-flight-instructors",
+      "name": "Thank-you gifts for a flight instructor",
+      "products": [
+        "aviation-dictionary",
+        "owala",
+        "pen"
+      ],
+      "background": "#E4D4BF",
+      "nodeId": "1063:1902",
+      "src": "/assets/collections/gifts-for-flight-instructors.webp",
+      "thumbnail": "/assets/collections/gifts-for-flight-instructors-600.webp"
+    },
+    {
+      "slug": "aviation-office-gifts",
+      "name": "A little aviation for the desk or office",
+      "products": [
+        "altimeter-clock",
+        "skyhawk",
+        "mustang-model"
+      ],
+      "background": "#D7DCC4",
+      "nodeId": "1063:1907",
+      "src": "/assets/collections/aviation-office-gifts.webp",
+      "thumbnail": "/assets/collections/aviation-office-gifts-600.webp"
+    },
+    {
+      "slug": "gifts-for-airline-pilots-off-duty",
+      "name": "Off-duty gifts for an airline pilot",
+      "products": [
+        "crew-backpack",
+        "concorde",
+        "owala"
+      ],
+      "background": "#D6CEE2",
+      "nodeId": "1063:1911",
+      "src": "/assets/collections/gifts-for-airline-pilots-off-duty.webp",
+      "thumbnail": "/assets/collections/gifts-for-airline-pilots-off-duty-600.webp"
+    },
+    {
+      "slug": "pilot-retirement-gifts",
+      "name": "A thoughtful way to mark a flying career",
+      "products": [
+        "pc12-model",
+        "tristar-model",
+        "mustang-model"
+      ],
+      "background": "#CDDDE7",
+      "nodeId": "1063:1915",
+      "src": "/assets/collections/pilot-retirement-gifts.webp",
+      "thumbnail": "/assets/collections/pilot-retirement-gifts-600.webp"
+    }
+  ],
+  "boardId": "1063:1827",
+  "figmaUrl": "https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=1063-1827"
+}
