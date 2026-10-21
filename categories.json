@@ -1,8 +1,77 @@
 [
-{"slug":"headsets","name":"Aviation headsets","nav":"HEADSETS","image":"bose","description":"Compare aviation headsets and learn which fit, connector and power details to check before buying a gift.","picks":["bose","lightspeed","gift-card"]},
-{"slug":"toys-models","name":"Toys & models","nav":"TOYS & MODELS","image":"concorde","description":"Airplane building sets, display models and aviation keepsakes for kids, collectors and grown-up plane lovers.","picks":["concorde","skyhawk","ornament"]},
-{"slug":"pilot-gear","name":"Pilot gear & bags","nav":"PILOT GEAR","image":"bag","description":"Useful flight bags, lights, kneeboards and small accessories, with practical checks for finding the right fit.","picks":["bag","light","kneeboard","pen"]},
-{"slug":"student-pilots","name":"Student pilots","nav":"STUDENT PILOTS","image":"logbook","description":"Gifts for learning to fly, a first solo and training milestones. Start with useful basics and the airplane they love.","picks":["logbook","pen","bag","gift-card"]},
-{"slug":"by-budget","name":"Gifts by budget","nav":"GIFTS BY BUDGET","image":"light","description":"Find thoughtful aviation gifts under $25, $50 or $100, and see when a larger budget is worth saving for.","picks":["light","pen","ornament","cessna-cap"]},
-{"slug":"occasions","name":"Partners & occasions","nav":"PARTNERS & OCCASIONS","image":"cessna-cap","description":"Holiday, birthday and milestone gifts for pilot partners, aviation-loving friends and the pilot who already has everything.","picks":["skyhawk","cessna-cap","cessna-shirt","gift-card"]}
+  {
+    "slug": "headsets",
+    "name": "Aviation headsets",
+    "nav": "HEADSETS",
+    "image": "bose",
+    "description": "Compare aviation headsets and learn which fit, connector and power details to check before buying a gift.",
+    "picks": [
+      "bose",
+      "lightspeed"
+    ]
+  },
+  {
+    "slug": "toys-models",
+    "name": "Toys & models",
+    "nav": "TOYS & MODELS",
+    "image": "concorde",
+    "description": "Airplane building sets, display models and aviation keepsakes for kids, collectors and grown-up plane lovers.",
+    "picks": [
+      "concorde",
+      "skyhawk",
+      "ornament"
+    ]
+  },
+  {
+    "slug": "pilot-gear",
+    "name": "Pilot gear & bags",
+    "nav": "PILOT GEAR",
+    "image": "bag",
+    "description": "Useful flight bags, lights, kneeboards and small accessories, with practical checks for finding the right fit.",
+    "picks": [
+      "bag",
+      "light",
+      "kneeboard",
+      "pen"
+    ]
+  },
+  {
+    "slug": "student-pilots",
+    "name": "Student pilots",
+    "nav": "STUDENT PILOTS",
+    "image": "logbook",
+    "description": "Gifts for learning to fly, a first solo and training milestones. Start with useful basics and the airplane they love.",
+    "picks": [
+      "logbook",
+      "pen",
+      "bag",
+      "gift-card"
+    ]
+  },
+  {
+    "slug": "by-budget",
+    "name": "Gifts by budget",
+    "nav": "GIFTS BY BUDGET",
+    "image": "light",
+    "description": "Find thoughtful aviation gifts under $25, $50 or $100, and see when a larger budget is worth saving for.",
+    "picks": [
+      "light",
+      "pen",
+      "ornament",
+      "cessna-cap"
+    ]
+  },
+  {
+    "slug": "occasions",
+    "name": "Partners & occasions",
+    "nav": "PARTNERS & OCCASIONS",
+    "image": "cessna-cap",
+    "description": "Holiday, birthday and milestone gifts for pilot partners, aviation-loving friends and the pilot who already has everything.",
+    "picks": [
+      "skyhawk",
+      "cessna-cap",
+      "cessna-shirt",
+      "gift-card"
+    ]
+  }
 ]

@@ -6,7 +6,7 @@ Native, dependency-free static website for https://www.pilotgiftguide.com. Sourc
 
 Live: https://www.pilotgiftguide.com (Vercel project `atc15/pilot-gift-guide`). The apex redirects to www. GoDaddy A and www CNAME records are connected; unrelated records were preserved. HTTPS, a category, a guide, robots, sitemap and a 404 response were verified.
 
-The daily publishing workflow is committed, but its deploy-hook connection is awaiting user confirmation. Search Console verification and sitemap submission are not configured yet.
+The daily publishing workflow is connected to a Vercel deploy hook stored in the encrypted GitHub Actions repository secret `VERCEL_DEPLOY_HOOK`. Search Console verification and sitemap submission are not configured yet.
 
 ## Current content
 
@@ -26,7 +26,7 @@ npm run build
 python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
 ```
 
-Node 22 or newer. No package installation is required. The build renders complete HTML; JavaScript adds search, filters, sort, saved gifts and carousel controls. Product pages open the merchant's website; this site does not process orders.
+Node 22 or newer. No package installation is required. The build renders complete HTML; JavaScript only controls the featured-guide carousel. The site is editorial: numbered rankings, written comparisons and product source links. There is no storefront, cart, checkout, product search/filter/sort or saved-gift feature.
 
 `BUILD_DATE=2026-11-10 npm run build` previews future publication locally. Run a normal build afterward. Never deploy a build with a future date override.
 
@@ -38,16 +38,19 @@ The GitHub Actions workflow runs at **15:17 UTC daily**, October 21–December 2
 
 A Vercel build reveals only posts with `status: ready` and `publish_date` no later than the current Los Angeles date. A missed run catches up on the next successful build. Future articles are absent from HTML, links and sitemap. The source repository is public, so scheduled article source is visible there before publication.
 
-Connection required: create a Vercel deploy hook for the `main` branch and store it as the GitHub Actions repository secret `VERCEL_DEPLOY_HOOK`. Never commit or print the hook URL. The workflow queues a deployment; check Vercel for successful completion. A warning identifies dates without a finished article. It does not fabricate an article or convert a brief into one.
+The Vercel deploy hook targets `main` and is stored as the GitHub Actions repository secret `VERCEL_DEPLOY_HOOK`. Never commit or print the hook URL. The workflow queues a deployment; check Vercel for successful completion. A warning identifies dates without a finished article. It does not fabricate an article or convert a brief into one.
 
 To add a finished article: write original copy, verify claims and sources, assign a category and product IDs, add it to `posts.json` with its date and `status: ready`, update the calendar, run `npm test`, commit and push. Date-specific sales and delivery claims must be checked close to publication. Do not prewrite invented offers or shipping deadlines.
 
 ## Design
 
-Blue-and-white aviation retail styling, sans-serif type, an original airplane-swoosh wordmark, product search, six category links and a three-slide carousel. Carousel controls support previous/next, direct selection, pause and keyboard arrows; reduced-motion users start with autoplay disabled.
+Blue-and-white editorial styling, sans-serif type, six guide categories, numbered product rankings and a three-slide guide carousel. The previous airplane-swoosh wordmark has been removed from the header; a plain text name is used pending the user’s selection from four new Figma logo options. Carousel controls support previous/next, direct selection, pause and keyboard arrows; reduced-motion users start with autoplay disabled.
 
-Editable logo and desktop/mobile carousel graphics:
+Desktop/mobile carousel graphics:
 https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=965-1827
+
+Four new logo directions (awaiting selection):
+https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=974-1827
 
 The banners use original vector illustrations, not product photographs or claims of a product render. Product cards use the images associated with their linked listings. Product imagery remains owned by its respective brand or retailer.
 
