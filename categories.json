@@ -63,15 +63,39 @@
   },
   {
     "slug": "occasions",
-    "name": "Partners & occasions",
-    "nav": "PARTNERS & OCCASIONS",
+    "name": "Milestones & occasions",
+    "nav": "OCCASIONS",
     "image": "cessna-cap",
-    "description": "Holiday, birthday and milestone gifts for pilot partners, aviation-loving friends and the pilot who already has everything.",
+    "description": "Graduations, promotions, retirements and holidays: thoughtful aviation gifts for meaningful moments.",
     "picks": [
       "skyhawk",
       "cessna-cap",
       "cessna-shirt",
       "gift-card"
     ]
+  },
+  {
+    "slug": "partners",
+    "name": "Pilot partners & family",
+    "nav": "PARTNERS & FAMILY",
+    "description": "Gift ideas for pilot husbands and wives, partners who do not fly, parents, and long-distance relationships."
+  },
+  {
+    "slug": "books",
+    "name": "Books, art & history",
+    "nav": "BOOKS & ART",
+    "description": "Aviation memoirs, engineering history, original art and personal keepsakes for curious readers and collectors."
+  },
+  {
+    "slug": "experiences",
+    "name": "Aviation experiences",
+    "nav": "EXPERIENCES",
+    "description": "Museum trips, airshow days, shared activities and experience-gift planning for aviation enthusiasts."
+  },
+  {
+    "slug": "flight-simulators",
+    "name": "Flight simulators",
+    "nav": "FLIGHT SIMS",
+    "description": "Simulator gift ideas, beginner setups, small-space solutions and compatibility checklists for hobby flying at home."
   }
 ]

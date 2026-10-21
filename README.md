@@ -10,13 +10,14 @@ The daily publishing workflow is connected to a Vercel deploy hook stored in the
 
 ## Current content
 
-- 19 original launch guides across six categories.
+- 100 published launch guides across ten categories: 19 existing guides plus 81 new original articles.
+- The 81 new articles contain approximately 27,500 words, with ten substantive entries per article.
 - 14 sourced product entries with retailer links and observed prices dated October 20, 2026.
 - 21 complete scheduled articles, one per day October 21–November 10.
 - 61-slot daily editorial calendar through December 20: 21 ready articles and 40 research briefs. Briefs are not finished articles and will not publish automatically.
-- Approximately 11,900 words of original guide content, excluding product cards and site navigation.
+- Numbered editorial lists, official source links for named recommendations, related-guide links, and category hubs.
 
-Open `editorial-calendar.html` for the readable calendar. Edit `content.json` for launch guides, `posts.json` for complete scheduled articles, and `categories.json` for category hubs. Prices and product sources are in `research/products.json`.
+Open `editorial-calendar.html` for the readable calendar. Edit `content.json` for the original launch guides, `editorial/*.txt` for the expanded manuscripts (then run `python3 editorial/import-guides.py` to refresh `expanded-guides.json`), `posts.json` for complete scheduled articles, and `categories.json` for category hubs. Prices and product sources are in `research/products.json`.
 
 ## Run and validate
 
@@ -30,7 +31,7 @@ Node 22 or newer. No package installation is required. The build renders complet
 
 `BUILD_DATE=2026-11-10 npm run build` previews future publication locally. Run a normal build afterward. Never deploy a build with a future date override.
 
-The test suite verifies scheduling boundaries, removal of future pages, sitemap inclusion, unique titles, one H1 per page, JSON-LD validity, internal paths/assets, categories and carousel count.
+The test suite verifies exactly 100 launch articles, ten entries per new article, complete original paragraphs, category membership, directory coverage, scheduling boundaries, removal of future pages, sitemap inclusion, unique titles, one H1 per page, JSON-LD validity, internal paths/assets, categories and carousel count.
 
 ## Scheduled publishing
 
@@ -61,7 +62,7 @@ The carousel uses native HTML text and product images from the articles, with pr
 
 ### Site architecture
 
-Category hubs: aviation headsets; toys and models; pilot gear and bags; student pilots; gifts by budget; partners and occasions. Each guide answers a distinct buying question and links to related guides and actual merchant listings. Pages have server-rendered content, canonical URLs, unique titles/descriptions, breadcrumbs and Article structured data. No invented ratings, review stars or hands-on tests.
+Category hubs: aviation headsets; toys and models; pilot gear and bags; student pilots; gifts by budget; milestones and occasions; pilot partners and family; books, art and history; aviation experiences; flight simulators. Each guide answers a distinct buying question and links to related guides and actual merchant listings. Pages have server-rendered content, canonical URLs, unique titles/descriptions, breadcrumbs and Article structured data. No invented ratings, review stars or hands-on tests.
 
 Prioritize the broad buying guides and specific long-tail questions already covered. Do not create dozens of interchangeable pages for every relationship or price point. New content must add a useful comparison, an original example, a verified fact or a distinct decision aid.
 

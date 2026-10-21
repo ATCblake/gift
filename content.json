@@ -689,18 +689,11 @@
     },
     {
       "slug": "gifts-for-student-pilots",
-      "title": "Gifts for student pilots, from first lesson to first solo",
-      "short": "For the student pilot",
+      "title": "10 best gifts for student pilots, from first lesson to first solo",
+      "short": "10 best gifts for student pilots",
       "description": "Practical student pilot gift ideas, with advice on logbooks, kneeboards, flight bags and what to ask their instructor before buying.",
       "intro": "The best gift for a student pilot fits the stage they are at. Someone booking a first lesson needs different things from someone preparing for a checkride. Start with one question: what has their instructor actually recommended?",
-      "picks": [
-        "logbook",
-        "pen",
-        "light",
-        "bag",
-        "kneeboard",
-        "skyhawk"
-      ],
+      "picks": [],
       "sections": [
         [
           "Start with the instructor’s list",
@@ -722,6 +715,56 @@
           "What should you avoid?",
           "Do not assume that a flight simulator accessory, training course or navigation subscription matches their instructor’s plan. Ask first. A gift should support training without creating a second system the student has to learn. If you cannot verify compatibility, choose a keepsake or a retailer gift card and let them select their own equipment."
         ]
+      ],
+      "category": "student-pilots",
+      "selection_method": "Our editorial order starts with gifts that support the student’s own training plan. Exact equipment choices belong with the student and instructor; these are recommendations, not hands-on test results.",
+      "selections": [
+        {
+          "title": "A contribution toward lessons",
+          "body": "Our first choice when the student is actively training: support the flying they already plan to do. Confirm how the school applies credit, what it covers, and whether it expires."
+        },
+        {
+          "title": "The logbook their instructor recommends",
+          "body": "A useful starting gift only if they still need one. Get the requested format and avoid making the student transfer records just to use a decorative alternative.",
+          "source": "https://www.pilotmall.com/products/asa-standard-pilot-logbook-black"
+        },
+        {
+          "title": "A practical pen and notebook",
+          "body": "Choose a reliable everyday pen and a notebook for study notes. Keep it separate from required records, and favor a format they already enjoy using.",
+          "source": "https://www.pilotmall.com/products/skilcraft-b3-aviator-multifunction-pen-pencil-black-red-ink-pen2500"
+        },
+        {
+          "title": "An exact requested flight bag",
+          "body": "Look at what they carry now and what needs organizing. A compact bag can make sense, but check dimensions and pockets instead of buying the largest student bundle.",
+          "source": "https://www.sportys.com/flight-gear-stealth-bag.html"
+        },
+        {
+          "title": "A suitable kneeboard",
+          "body": "Choose with the student after confirming their tablet, case, and preferences. A popular kneeboard is still a poor gift if it does not fit their actual setup.",
+          "source": "https://www.sportys.com/flight-gear-rotating-ipad-kneeboard.html"
+        },
+        {
+          "title": "A headset fund",
+          "body": "Let the student and instructor identify suitable models and configurations. A clearly stated contribution avoids guessing about connectors, fit, or the student’s longer-term budget."
+        },
+        {
+          "title": "Instructor-requested study materials",
+          "body": "Get the exact title, edition, or course link. Extra materials should support the existing syllabus instead of creating a competing study system."
+        },
+        {
+          "title": "A light from their equipment list",
+          "body": "Use the instructor’s recommendation and confirm the exact item. Do not assume a novelty flashlight or a generic product listing establishes suitability for their training.",
+          "source": "https://www.sportys.com/flight-gear-universal-aviator-s-light.html"
+        },
+        {
+          "title": "A model of their training aircraft",
+          "body": "A personal keepsake can be the right choice when equipment needs are already covered. Confirm aircraft type, variant, and display space before choosing.",
+          "source": "https://www.pilotmall.com/products/cessna-172-skyhawk-sp-mahogany-model-high-flying-models"
+        },
+        {
+          "title": "A milestone photo and handwritten note",
+          "body": "Celebrate the person’s effort and the people supporting them. A specific memory and an accurate date can make a modest gift feel more meaningful than another gadget."
+        }
       ]
     },
     {

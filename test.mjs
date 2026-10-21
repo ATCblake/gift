@@ -2,9 +2,26 @@ import fs from 'node:fs';import path from 'node:path';import assert from 'node:a
 const run=date=>execFileSync(process.execPath,['build.mjs'],{env:{...process.env,BUILD_DATE:date},stdio:'pipe'});
 const posts=JSON.parse(fs.readFileSync('posts.json','utf8'));
 const content=JSON.parse(fs.readFileSync('content.json','utf8'));
-const slugs=[...content.guides,...posts].map(x=>x.slug);assert.equal(new Set(slugs).size,slugs.length,'Duplicate slug');
+const expanded=JSON.parse(fs.readFileSync('expanded-guides.json','utf8'));
+const launch=[...content.guides,...expanded];
+assert.equal(launch.length,100,'Exactly 100 launch articles');
+const slugs=[...launch,...posts].map(x=>x.slug);assert.equal(new Set(slugs).size,slugs.length,'Duplicate slug');
+const categoriesSet=new Set(JSON.parse(fs.readFileSync('categories.json','utf8')).map(c=>c.slug));
+const intros=new Set(),paragraphs=new Set();
+for(const g of expanded){
+ assert.ok(categoriesSet.has(g.category),'Unknown category: '+g.slug);
+ assert.equal(g.selections.length,10,'Every ten-item article needs ten entries: '+g.slug);
+ assert.ok(!intros.has(g.intro),'Repeated introduction');intros.add(g.intro);
+ const words=[g.intro,...g.sections.flat(),...g.selections.flatMap(p=>[p.title,p.body])].join(' ').split(/\s+/).length;
+ assert.ok(words>=300,'Incomplete article: '+g.slug);
+ assert.ok(g.description.length<=160&&g.description.length>=40,'Invalid description');
+ for(const pick of g.selections){assert.ok(pick.title&&pick.body.split(/\s+/).length>=15,'Thin list entry: '+g.slug);assert.ok(!paragraphs.has(pick.body),'Duplicate list-entry text');paragraphs.add(pick.body);if(pick.source)assert.equal(new URL(pick.source).protocol,'https:');}
+}
 try{
  run('2026-10-20');
+ const launchSitemap=fs.readFileSync('dist/sitemap.xml','utf8');
+ const directory=fs.readFileSync('dist/guides/index.html','utf8');
+ for(const g of launch){assert.ok(launchSitemap.includes('/'+g.slug+'/'),'Launch guide absent from sitemap');assert.ok(directory.includes('href="/'+g.slug+'/"'),'Launch guide absent from directory');if(g.selections){const html=fs.readFileSync('dist/'+g.slug+'/index.html','utf8');assert.equal((html.match(/id="pick-\d+"/g)||[]).length,10,'Rendered list count: '+g.slug);}}
  for(const post of posts)assert.equal(fs.existsSync(`dist/${post.slug}/index.html`),false,'Future article leaked');
  run('2026-10-21');assert.ok(fs.existsSync(`dist/${posts[0].slug}/index.html`));assert.ok(!fs.existsSync(`dist/${posts[1].slug}/index.html`));
  let sitemap=fs.readFileSync('dist/sitemap.xml','utf8');assert.ok(sitemap.includes(posts[0].slug));assert.ok(!sitemap.includes(posts[1].slug));
