@@ -10,7 +10,7 @@ The daily publishing workflow is connected to a Vercel deploy hook stored in the
 
 ## Current content
 
-- 18 original launch guides across six categories.
+- 19 original launch guides across six categories.
 - 14 sourced product entries with retailer links and observed prices dated October 20, 2026.
 - 21 complete scheduled articles, one per day October 21–November 10.
 - 61-slot daily editorial calendar through December 20: 21 ready articles and 40 research briefs. Briefs are not finished articles and will not publish automatically.
@@ -44,15 +44,9 @@ To add a finished article: write original copy, verify claims and sources, assig
 
 ## Design
 
-Blue-and-white editorial styling, sans-serif type, six guide categories, numbered product rankings and a three-slide guide carousel. The previous airplane-swoosh wordmark has been removed from the header; a plain text name is used pending the user’s selection from four new Figma logo options. Carousel controls support previous/next, direct selection, pause and keyboard arrows; reduced-motion users start with autoplay disabled.
+Blue-and-white editorial styling with a guide-only homepage: article previews, topic hubs and a three-slide featured-guide carousel. Ranked product lists and reference prices appear inside articles, not as homepage merchandise. All homepage content calls to action lead to guides, topic hubs or editorial information. The approved logo uses live Outfit text in blue/charcoal/blue plus an SVG tail-fin mark; the font and its OFL license are self-hosted.
 
-Desktop/mobile carousel graphics:
-https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=965-1827
-
-Four new logo directions (awaiting selection):
-https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=974-1827
-
-The banners use original vector illustrations, not product photographs or claims of a product render. Product cards use the images associated with their linked listings. Product imagery remains owned by its respective brand or retailer.
+The carousel uses native HTML text and product images from the articles, with previous/next, direct selection, pause and keyboard controls. Reduced-motion users start with autoplay disabled. Product imagery remains owned by its respective brand or retailer. Retailer links inside guides are labeled as sources.
 
 ## Launch sequence
 

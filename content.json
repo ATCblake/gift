@@ -174,6 +174,40 @@
   ],
   "guides": [
     {
+      "slug": "best-pilot-gift-ideas",
+      "title": "10 best pilot gift ideas: our ranked shortlist",
+      "short": "10 pilot gift ideas, ranked",
+      "category": "occasions",
+      "description": "A researched shortlist of ten aviation gifts, with a reason for each pick and practical checks for choosing the right one.",
+      "intro": "Start with the person, then the airplane. This ranked shortlist brings together ten gift ideas for different kinds of aviation enthusiasts, from model collectors to student pilots. The order reflects broad gift appeal and how easy the choice is to get right—not hands-on test scores.",
+      "sections": [
+        [
+          "How we ranked these ideas",
+          "We prioritize personal appeal, usefulness and how easily someone outside aviation can confirm the right fit. That puts a recognizable display model or a practical everyday accessory ahead of equipment that requires an exact aircraft configuration. A recipient’s own wishlist should always take precedence over a general ranking."
+        ],
+        [
+          "Choose for their kind of aviation",
+          "Collectors may enjoy a building project or a model of a meaningful aircraft. Student pilots may appreciate a small useful accessory, after checking what their school supplies. Working pilots often have strong equipment preferences, so ask before choosing anything for the cockpit."
+        ],
+        [
+          "Use this list as a starting point",
+          "Read the reason and compatibility checks below each pick, then explore the more specific guides linked at the end. Listed prices are dated reference information. The source links identify the products discussed; this site does not take orders."
+        ]
+      ],
+      "picks": [
+        "concorde",
+        "skyhawk",
+        "bag",
+        "light",
+        "pen",
+        "logbook",
+        "ornament",
+        "cessna-cap",
+        "kneeboard",
+        "bag-tag"
+      ]
+    },
+    {
       "slug": "best-aviation-headsets",
       "title": "Best aviation headsets to consider as a gift: Bose A30 vs. Zulu 3",
       "short": "Best aviation headsets",

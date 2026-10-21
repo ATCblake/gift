@@ -14,3 +14,21 @@
 .brand-domain{font-size:.64em;font-weight:500;letter-spacing:-.035em;margin-left:.025em}
 @media(max-width:1000px){.brand{font-size:32px}.header-note{font-size:12px}.header-guides{font-size:12px}}
 @media(max-width:700px){.header-main{justify-content:space-between;min-height:96px;padding:17px 0 12px;row-gap:11px}.brand{font-size:clamp(26px,7.5vw,34px);gap:7px}.header-guides{flex-basis:100%;font-size:11px}}
+
+/* The home page is an article directory; product rankings live inside guides. */
+.guide-feature{display:grid;grid-template-columns:1.1fr 1fr;min-height:365px;text-decoration:none;background:#f1f5f9}
+.guide-feature:hover{text-decoration:none}
+.guide-feature-copy{padding:48px;background:#193e68;color:#fff;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.guide-feature-copy .eyebrow{color:#b9d2e9;font-size:12px;letter-spacing:.8px}
+.guide-feature-copy h2{color:#fff;font-size:38px;line-height:1.12;margin:18px 0}
+.guide-feature-copy p{font-size:18px;line-height:1.5;max-width:470px;color:#dbe6f2;margin-bottom:22px}
+.guide-feature-link{font-weight:700;font-size:14px;border-bottom:1px solid #b9d2e9;padding-bottom:4px;color:white}
+.guide-feature-art{padding:35px;display:flex;align-items:center;justify-content:center;background:white}
+.guide-feature-art img{width:100%;height:290px;aspect-ratio:auto;object-fit:contain}
+.guide-library h1{font-size:29px;margin:0}
+.guide-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.guide-topic-grid>a{padding:24px;border:1px solid var(--border);display:flex;flex-direction:column;color:var(--text)}
+.guide-topic-grid>a:hover{text-decoration:none;border-color:var(--blue)}
+.guide-topic-grid h3{font-size:20px;margin-bottom:10px}.guide-topic-grid p{font-size:14px;line-height:1.6}.guide-topic-grid .text-link{margin-top:auto}
+@media(max-width:1000px){.guide-feature-copy{padding:32px}.guide-feature-copy h2{font-size:30px}.guide-feature-copy p{font-size:16px}}
+@media(max-width:700px){.guide-feature{grid-template-columns:1fr;min-height:0}.guide-feature-copy{padding:28px}.guide-feature-copy h2{font-size:29px;margin:14px 0}.guide-feature-copy p{font-size:15px}.guide-feature-art{padding:20px}.guide-feature-art img{height:180px;aspect-ratio:auto}.guide-topic-grid{grid-template-columns:1fr}.guide-library .guides{grid-template-columns:1fr}.guide-library h1{font-size:25px}.guide-library .section-heading>a{flex:none}}
