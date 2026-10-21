@@ -1,0 +1,477 @@
+{
+  "best-pilot-gift-ideas": {
+    "short": "Gifts for pilots, from little finds to big gestures",
+    "title": "Gifts for pilots, from little finds to big gestures",
+    "product_ids": [
+      "concorde",
+      "atc",
+      "snoopy",
+      "pen",
+      "skyhawk",
+      "bomber-book",
+      "altimeter-clock",
+      "bag",
+      "owala",
+      "airliner-ornament"
+    ],
+    "context": "Start with their off-duty interests. This shortlist mixes things to build, things to use and things to enjoy at home; technical equipment is a gift to choose together.",
+    "updated": "2026-10-21",
+    "reasons": {
+      "concorde": "For a patient builder with display space, the activity is as much of the gift as the finished airplane.",
+      "atc": "For someone who already enjoys following airport activity, a listening experience adds something new without adding more gear.",
+      "snoopy": "For the aviation lover who prefers a playful keepsake to technical equipment.",
+      "pen": "For the practical recipient, a useful small tool is easier to get right than an expensive electronics upgrade.",
+      "skyhawk": "Especially personal when the Cessna 172 was the airplane they learned in.",
+      "bomber-book": "Choose this for the reader interested in the people and artwork of aviation history.",
+      "altimeter-clock": "A fit for an office or hangar whose owner likes instrument-inspired design.",
+      "bag": "For a pilot who has specifically asked for a compact backpack-style flight bag.",
+      "owala": "For the air-race fan who would use a bottle on ordinary days as well as at the airshow.",
+      "airliner-ornament": "A modest seasonal gift that can carry a story about a favorite trip."
+    },
+    "description": "From a miniature Concorde to a well-chosen book, these are gifts for the person behind the pilot license."
+  },
+  "gifts-for-student-pilots": {
+    "short": "Useful gifts for someone learning to fly",
+    "title": "Useful gifts for someone learning to fly",
+    "product_ids": [
+      "logbook",
+      "plotter",
+      "pen",
+      "student-manual",
+      "bag",
+      "kneeboard",
+      "light",
+      "atc",
+      "skyhawk",
+      "gift-card"
+    ],
+    "context": "For a student, the school\u2019s equipment list comes first. These picks focus on modest essentials, an optional listening app and a keepsake for a meaningful milestone.",
+    "updated": "2026-10-21",
+    "reasons": {
+      "logbook": "A useful first purchase only if the school recommends this format and the student does not already have it.",
+      "plotter": "Appropriate for a student learning paper cross-country planning; ask whether it is already in the school kit.",
+      "student-manual": "Buy the instructor-approved edition, not a second syllabus selected on the student\u2019s behalf.",
+      "atc": "For a curious student who enjoys listening between lessons; it is not a substitute for instruction."
+    },
+    "description": "Useful basics, a first-aircraft keepsake, and a few ways to celebrate the person learning to fly."
+  },
+  "what-your-pilot-husband-wants": {
+    "short": "Gifts your pilot husband might actually want",
+    "title": "Gifts your pilot husband might actually want",
+    "product_ids": [
+      "concorde",
+      "atc",
+      "crew-backpack",
+      "owala",
+      "altimeter-clock",
+      "bomber-book",
+      "mustang-model",
+      "pen",
+      "warhawk-socks",
+      "gift-card"
+    ],
+    "context": "His flying job or hobby is only part of the brief. Choose from these specific options based on whether he enjoys building, reading, traveling or keeping aviation at his desk.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "For the builder, reader, traveler or plane spotter you know best. Start with his interests, then find the right gift."
+  },
+  "gifts-for-wife-who-is-pilot": {
+    "short": "Thoughtful gifts for a wife who flies",
+    "title": "Thoughtful gifts for a wife who flies",
+    "product_ids": [
+      "atc",
+      "crew-backpack",
+      "concorde",
+      "owala",
+      "snoopy",
+      "bomber-book",
+      "skyhawk",
+      "pen",
+      "altimeter-clock",
+      "gift-card"
+    ],
+    "context": "Use her actual interests and equipment preferences to choose. These options cover everyday travel, aviation reading, models and listening without assuming she wants more cockpit gear.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Thoughtful options for her everyday travels, favorite aircraft and interests away from the cockpit."
+  },
+  "best-aviation-toys-and-models": {
+    "short": "Airplane toys and models worth making room for",
+    "title": "Airplane toys and models worth making room for",
+    "product_ids": [
+      "concorde",
+      "texan-kit",
+      "airliner-kit",
+      "shuttle-kit",
+      "helicopter-kit",
+      "blue-angels-toy",
+      "snoopy",
+      "aviator-bear",
+      "skyhawk",
+      "mustang-model"
+    ],
+    "context": "Separate building, playing and collecting before you choose. We identify small-parts and display-only choices so an impressive model is not mistaken for a child\u2019s play toy.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Building projects, playful little jets and models to display. First decide whether the gift is for play or the shelf."
+  },
+  "best-flight-bag-gifts": {
+    "short": "Flight bags for the way they actually travel",
+    "title": "Flight bags for the way they actually travel",
+    "product_ids": [
+      "bag",
+      "gear-bag",
+      "crew-backpack",
+      "wingman",
+      "crew-brief",
+      "rolling-bag"
+    ],
+    "context": "A lesson bag, a commuting backpack and a rolling trip bag solve different problems. Compare the carry style and storage footprint before treating a bigger bag as an upgrade.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "A lesson bag, commuting backpack and rolling trip bag solve different problems. Find the right carry style."
+  },
+  "pilot-gifts-under-50": {
+    "short": "Small pilot gifts that feel thoughtfully chosen",
+    "title": "Small pilot gifts that feel thoughtfully chosen",
+    "product_ids": [
+      "pen",
+      "logbook",
+      "plotter",
+      "dual-light",
+      "warhawk-socks",
+      "snoopy-keychain",
+      "airliner-kit",
+      "altimeter-clock",
+      "air-race-mug",
+      "ornament"
+    ],
+    "context": "Every priced pick was listed below $50 at its recorded check. Choose a connection to the recipient first, then confirm the delivered total including tax and shipping.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "A small building project, a useful pen, a little aviation personality. Thoughtful picks listed below $50."
+  },
+  "pilot-gifts-under-100": {
+    "short": "Pilot gifts under $100, without the guesswork",
+    "title": "Pilot gifts under $100, without the guesswork",
+    "product_ids": [
+      "bag",
+      "snoopy",
+      "texan-kit",
+      "owala",
+      "altimeter-clock",
+      "aviation-dictionary",
+      "light",
+      "pen",
+      "mini-kneeboard",
+      "cessna-cap"
+    ],
+    "context": "These picks avoid the price of a complete headset. A kneeboard still needs an exact tablet check; a book, model or off-duty accessory is easier to keep a surprise.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Useful flight-bag additions and off-duty favorites that leave the big equipment decisions to the pilot."
+  },
+  "pilot-gifts-on-a-25-dollar-budget": {
+    "short": "Ten small aviation gifts on a $25 budget",
+    "title": "Ten small aviation gifts on a $25 budget",
+    "product_ids": [
+      "pen",
+      "logbook",
+      "plotter",
+      "dual-light",
+      "warhawk-socks",
+      "snoopy-keychain",
+      "helicopter-kit",
+      "airliner-kit",
+      "air-race-mug",
+      "airliner-ornament"
+    ],
+    "context": "These items were listed at $25 or less before tax and delivery. For a firm all-in budget, allow room for shipping or choose something available locally.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Ten modest gifts with a specific aviation connection, all listed at $25 or less before tax and shipping."
+  },
+  "best-aviation-headsets": {
+    "short": "Bose A30 or Lightspeed Zulu 3? Start with fit",
+    "title": "Bose A30 or Lightspeed Zulu 3? Start with fit",
+    "product_ids": [
+      "bose",
+      "lightspeed"
+    ],
+    "context": "Both are premium over-ear options, but the best gift is the exact configuration the recipient wants. A price comparison does not establish which will fit or sound better for them.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Two premium headset options, with the price, configuration and fit questions to settle before buying."
+  },
+  "10-best-aviation-headsets": {
+    "short": "Ten aviation headsets to compare before buying",
+    "title": "Ten aviation headsets to compare before buying",
+    "product_ids": [
+      "bose",
+      "zulu-4",
+      "delta-zulu",
+      "dc-one-x",
+      "lightspeed",
+      "sierra",
+      "h10-134",
+      "proflight-2",
+      "dc-pro-x2",
+      "faro-g3"
+    ],
+    "context": "This is a researched shortlist across different budgets and wearing styles, not a lab-tested performance ranking. Start with aircraft compatibility, then fit, then the features worth paying for.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Compare ten over-ear, on-ear and in-ear options. Aircraft compatibility and personal fit come first."
+  },
+  "headset-budget-for-student-pilots": {
+    "short": "Headset options for a student pilot\u2019s budget",
+    "title": "Headset options for a student pilot\u2019s budget",
+    "product_ids": [
+      "faro-g2",
+      "h10-30",
+      "h10-134",
+      "faro-g3",
+      "sierra"
+    ],
+    "context": "Passive and active-noise-reduction headsets belong in different comparisons. Ask the instructor about the aircraft and try the fit before treating the cheapest listed price as the best value.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Five passive and ANR options to discuss with the student and their instructor before choosing a headset."
+  },
+  "aircraft-model-gift-guide": {
+    "short": "A meaningful aircraft, in miniature",
+    "title": "A meaningful aircraft, in miniature",
+    "product_ids": [
+      "skyhawk",
+      "mustang-model",
+      "pc12-model",
+      "tristar-model",
+      "concorde"
+    ],
+    "context": "The aircraft and livery matter more than a model\u2019s price. These examples cover a training aircraft, a warbird, a turboprop and classic airliners; check their display footprint.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Their first trainer, favorite warbird or a classic airliner: choose the aircraft that tells their story."
+  },
+  "best-aviation-books-for-gifts": {
+    "short": "Six aviation books for six different readers",
+    "title": "Six aviation books for six different readers",
+    "product_ids": [
+      "bomber-book",
+      "aviation-dictionary",
+      "human-factors",
+      "killing-zone",
+      "student-manual",
+      "interview-book"
+    ],
+    "context": "A visual history, a reference book and an interview guide are very different gifts. Match the subject to the reader; assigned training books should be confirmed with the instructor.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Visual history, technical references and career reading. Six specific books for six different kinds of aviation reader."
+  },
+  "best-flight-simulator-gift-ideas": {
+    "short": "Flight simulator gifts: choose the right platform",
+    "title": "Flight simulator gifts: choose the right platform",
+    "product_ids": [
+      "hotas",
+      "sky-yoke",
+      "warthog",
+      "airbus-grip",
+      "atc"
+    ],
+    "context": "The recipient\u2019s platform and existing controls determine which hardware makes sense. The Airbus grip needs a separate compatible base; ATC is a separate real-airport listening app, not a simulator integration.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Yokes, sticks and an airport-listening app. Check the platform and existing setup before choosing an upgrade."
+  },
+  "aviation-gifts-for-small-spaces": {
+    "short": "Aviation gifts that do not take over the room",
+    "title": "Aviation gifts that do not take over the room",
+    "product_ids": [
+      "atc",
+      "helicopter-kit",
+      "airliner-kit",
+      "snoopy-keychain",
+      "pen",
+      "ornament",
+      "warhawk-socks",
+      "gift-card"
+    ],
+    "context": "Choose a compact activity or a digital experience when shelf space is scarce. Miniature building sets still need room for assembly and should match the recipient\u2019s patience for small pieces.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Small building projects, pocket-sized accessories and a digital experience for someone whose shelves are already full."
+  },
+  "gifts-for-pilots-who-have-everything": {
+    "short": "For the pilot who already has the gear",
+    "title": "For the pilot who already has the gear",
+    "product_ids": [
+      "atc",
+      "bomber-book",
+      "concorde",
+      "mustang-model",
+      "snoopy",
+      "altimeter-clock",
+      "owala",
+      "air-race-mug",
+      "airliner-kit",
+      "gift-card"
+    ],
+    "context": "Look beyond the flight bag. These ideas focus on aviation as a personal interest: a listening experience, a build, a book or a keepsake connected to their favorite aircraft.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Skip the flight-bag guesswork. Explore something to build, read, display or listen to when they are off duty."
+  },
+  "gifts-for-aviation-lovers": {
+    "short": "Good gifts for people who just love airplanes",
+    "title": "Good gifts for people who just love airplanes",
+    "product_ids": [
+      "atc",
+      "concorde",
+      "snoopy",
+      "airliner-kit",
+      "tristar-model",
+      "bomber-book",
+      "altimeter-clock",
+      "blue-angels-toy",
+      "cessna-cap",
+      "airliner-ornament"
+    ],
+    "context": "A love of airplanes does not imply a need for cockpit equipment. Match these picks to a builder, collector, listener or casual fan, and check age guidance for children.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "You do not need a pilot license to enjoy these models, keepsakes, building projects and airport-radio experiences."
+  },
+  "aviation-gifts-for-plane-spotters": {
+    "short": "Gifts for people who stop to watch airplanes",
+    "title": "Gifts for people who stop to watch airplanes",
+    "product_ids": [
+      "atc",
+      "owala",
+      "cessna-cap",
+      "tristar-model",
+      "air-race-mug",
+      "concorde"
+    ],
+    "context": "For a day outside, start with practical comfort and the airports they follow. For home, a model or building project can connect to the aircraft they most enjoy spotting.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "For a day at the airport fence or an evening remembering favorite aircraft. Practical comfort meets personal interests."
+  },
+  "gifts-for-new-private-pilots": {
+    "short": "Mark a new private pilot\u2019s next chapter",
+    "title": "Mark a new private pilot\u2019s next chapter",
+    "product_ids": [
+      "skyhawk",
+      "logbook",
+      "pen",
+      "bag",
+      "atc",
+      "gift-card"
+    ],
+    "context": "The most personal choice may be a model of the airplane they trained in. For useful gear, confirm what they already own after training rather than buying a duplicate starter kit.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "A model of their trainer, a useful everyday tool or something to enjoy between flights. Celebrate the new certificate."
+  },
+  "gifts-for-flight-instructors": {
+    "short": "Thank-you gifts for a flight instructor",
+    "title": "Thank-you gifts for a flight instructor",
+    "product_ids": [
+      "pen",
+      "aviation-dictionary",
+      "owala",
+      "cessna-cap",
+      "air-race-mug",
+      "gift-card"
+    ],
+    "context": "An instructor is likely to have their own flying setup. These modest everyday and off-duty options keep the emphasis on a thank-you rather than a guessed equipment upgrade.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Modest, useful and personal ways to say thank you, without guessing which flying equipment they need."
+  },
+  "aviation-office-gifts": {
+    "short": "A little aviation for the desk or office",
+    "title": "A little aviation for the desk or office",
+    "product_ids": [
+      "altimeter-clock",
+      "skyhawk",
+      "mustang-model",
+      "pc12-model",
+      "tristar-model",
+      "bomber-book",
+      "snoopy",
+      "pen",
+      "airliner-kit",
+      "air-race-mug"
+    ],
+    "context": "Measure the room before choosing a large model or clock. The smaller picks work for someone who wants a quiet personal reference instead of an entire aviation-themed office.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Aircraft models, an instrument-inspired clock and smaller finds for the desk. Measure the space before choosing."
+  },
+  "gifts-for-airline-pilots-off-duty": {
+    "short": "Off-duty gifts for an airline pilot",
+    "title": "Off-duty gifts for an airline pilot",
+    "product_ids": [
+      "atc",
+      "concorde",
+      "owala",
+      "crew-backpack",
+      "bomber-book",
+      "snoopy",
+      "altimeter-clock",
+      "tristar-model",
+      "warhawk-socks",
+      "gift-card"
+    ],
+    "context": "These picks split between travel conveniences and interests at home. Choose based on how they want to spend time away from work, rather than assuming they want more professional equipment.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Travel conveniences and things to enjoy at home, chosen for the person\u2019s interests beyond their flying job."
+  },
+  "pilot-retirement-gifts": {
+    "short": "A thoughtful way to mark a flying career",
+    "title": "A thoughtful way to mark a flying career",
+    "product_ids": [
+      "pc12-model",
+      "tristar-model",
+      "mustang-model",
+      "skyhawk",
+      "bomber-book",
+      "altimeter-clock",
+      "atc",
+      "concorde",
+      "air-race-mug",
+      "gift-card"
+    ],
+    "context": "Start with an aircraft, route or flying memory that means something to the retiree. Models require a livery check; the listening app is for someone who wants to keep following airport activity.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Mark a meaningful flying career with a connection to a favorite aircraft, a memory or a new off-duty interest."
+  },
+  "aviation-headset-accessory-gifts": {
+    "short": "Buying headset accessories? Get the model right.",
+    "title": "Buying headset accessories? Get the model right.",
+    "product_ids": [
+      "a30-refresh"
+    ],
+    "context": "Replacement cushions are useful only when they fit the exact headset. This guide includes a verified A30 kit; for any other model, ask the pilot for the manufacturer\u2019s part number.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Cushions, windscreens and other replacements only help when they fit. Start with the exact headset and part number."
+  },
+  "buying-a-pilot-headset-as-a-gift": {
+    "short": "Before you buy a headset as a gift",
+    "title": "Before you buy a headset as a gift",
+    "product_ids": [
+      "bose",
+      "lightspeed",
+      "dc-one-x"
+    ],
+    "context": "Use these examples to discuss budget and wearing preference. Confirm the aircraft plugs, power arrangement, employer requirements and return terms before choosing a configuration.",
+    "updated": "2026-10-21",
+    "reasons": {},
+    "description": "Plugs, power, personal fit and return terms: the checks to make before choosing an expensive headset gift."
+  }
+}

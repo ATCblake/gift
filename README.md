@@ -12,12 +12,12 @@ The daily publishing workflow is connected to a Vercel deploy hook stored in the
 
 - 100 published launch guides across ten categories: 19 existing guides plus 81 new original articles.
 - The 81 new articles contain approximately 27,500 words, with ten substantive entries per article.
-- 14 sourced product entries with retailer links and observed prices dated October 20, 2026.
+- 62 centralized product records with source links, images, price-check dates, compatibility, intended recipients, strengths and limitations. Twenty-five live guides (plus one scheduled guide) select products from this library.
 - 21 complete scheduled articles, one per day October 21–November 10.
 - 61-slot daily editorial calendar through December 20: 21 ready articles and 40 research briefs. Briefs are not finished articles and will not publish automatically.
 - Numbered editorial lists, official source links for named recommendations, related-guide links, and category hubs.
 
-Open `editorial-calendar.html` for the readable calendar. Edit `content.json` for the original launch guides, `editorial/*.txt` for the expanded manuscripts (then run `python3 editorial/import-guides.py` to refresh `expanded-guides.json`), `posts.json` for complete scheduled articles, and `categories.json` for category hubs. Prices and product sources are in `research/products.json`.
+Open `editorial-calendar.html` for the readable calendar. Edit `content.json` for the original launch guides, `editorial/*.txt` for the expanded manuscripts (then run `python3 editorial/import-guides.py` to refresh `expanded-guides.json`), `posts.json` for complete scheduled articles, and `categories.json` for category hubs. `product-library.json` is the authoritative product source. `guide-products.json` owns article-specific selections, descriptions and reasoning; these overrides take precedence over manuscript product lists. `research/products.json` is an older research snapshot, not a build input.
 
 ## Run and validate
 
@@ -27,11 +27,11 @@ npm run build
 python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
 ```
 
-Node 22 or newer. No package installation is required. The build renders complete HTML; JavaScript only controls the featured-guide carousel. The site is editorial: numbered rankings, written comparisons and product source links. There is no storefront, cart, checkout, product search/filter/sort or saved-gift feature.
+Node 22 or newer. No package installation is required. The build renders complete HTML; JavaScript powers local guide-directory search; the content remains readable without JavaScript. The site is editorial: numbered rankings, written comparisons and product source links. There is no storefront, cart, checkout, product search/filter/sort or saved-gift feature.
 
 `BUILD_DATE=2026-11-10 npm run build` previews future publication locally. Run a normal build afterward. Never deploy a build with a future date override.
 
-The test suite verifies exactly 100 launch articles, ten entries per new article, complete original paragraphs, category membership, directory coverage, scheduling boundaries, removal of future pages, sitemap inclusion, unique titles, one H1 per page, JSON-LD validity, internal paths/assets, categories and carousel count.
+Tests verify product record completeness, guide references, budget constraints, central price propagation, list/schema counts, scheduling boundaries, future-page exclusion, unique headset images, ownership disclosures, metadata, internal links and assets.
 
 ## Scheduled publishing
 
@@ -45,9 +45,9 @@ To add a finished article: write original copy, verify claims and sources, assig
 
 ## Design
 
-Blue-and-white editorial styling with a guide-only homepage: article previews, topic hubs and a three-slide featured-guide carousel. Ranked product lists and reference prices appear inside articles, not as homepage merchandise. All homepage content calls to action lead to guides, topic hubs or editorial information. The approved logo uses live Outfit text in blue/charcoal/blue plus an SVG tail-fin mark; the font and its OFL license are self-hosted.
+An editorial homepage with a restrained masthead, a lead story and supporting stories, thematic guide rows, serif display headlines and real product-photo compositions. Ranked product lists and reference prices appear inside articles, not as homepage merchandise. All homepage content calls to action lead to guides, topic hubs or editorial information. The approved logo uses live Outfit text in blue/charcoal/blue plus an SVG tail-fin mark; the font and its OFL license are self-hosted.
 
-The carousel uses native HTML text and product images from the articles, with previous/next, direct selection, pause and keyboard controls. Reduced-motion users start with autoplay disabled. Product imagery remains owned by its respective brand or retailer. Retailer links inside guides are labeled as sources.
+The homepage links to editorial guides rather than purchase actions. Inside product-backed guides, comparison tables and recommendations draw from the same product records. Product imagery remains owned by its brand or retailer; no hands-on testing is implied.
 
 ## Launch sequence
 
@@ -103,16 +103,14 @@ After Search Console is connected, review indexed pages, impressions, query rele
 Google references: https://developers.google.com/search/docs/fundamentals/creating-helpful-content ; https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl ; https://developers.google.com/search/docs/essentials/spam-policies .
 
 
-## Editorial imagery (October 20 refresh)
+## Product library maintenance — October 21, 2026
 
-- The [editable Figma artwork board](https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=996-1827) contains twelve cover compositions. Exported JPEGs live in `dist/assets/editorial/`.
-- `research/editorial-images.json` maps topics and selected guide slugs to cover imagery, alt text and captions, and records photography sources. Source photographs are preserved in `research/photos/`.
-- All published and scheduled guides receive a cover, contextual caption, social image and Article image metadata through `artFor`. Covers illustrate topics; they do not imply every photographed product appears in every list.
-- The approved live-text wordmark is unchanged. The site remains a guide publisher with no storefront or checkout. Brand mentions and app promotions requested for removal have been removed from public copy and styles.
-- Tests cover imagery and removed-brand regressions alongside the existing scheduling, metadata and internal-link checks.
+- Edit product facts once in `product-library.json`; price changes propagate to every referencing guide. Record the observed variant, source URL, actual check date, availability, image, recipient, strengths, limitations and fit requirements. Never advance the check date without checking the source.
+- Keep contextual selection reasons in `guide-products.json`. Product price figures do not belong in article prose. Reassess budget-guide inclusion when a price changes; tests catch price ceiling violations.
+- Run `npm run audit:products` for records whose price checks are older than seven days and records with unknown or unavailable stock. This is a maintenance report, not a live retailer refresh.
+- `research/headset-images.json` maps twelve guide slugs to distinct models; the images and model names used in the build come from the product library. Preserve the distinct model assignments.
+- `atc-recommendations.json` supplies additional contextual ATC placements for unconverted guides. ATC features, imagery, price note, compatibility and ownership disclosure come from the central library. Do not imply independent customer review.
+- The design retains the approved live-text logo and tail-fin mark. Homepage and core guide compositions use genuine product photographs with native HTML/CSS. `research/editorial-images.json` retains photography provenance; the earlier Figma cover exports are historical assets.
+- Browser QA covers desktop/mobile layouts, guide search including no results, article comparison tables, product cards and the headset category. Hashed CSS/JS URLs prevent stale cached assets after deployment.
 
-## Headset artwork and app recommendations — October 21, 2026
-
-`research/headset-images.json` maps each of the twelve current or scheduled headset guides to a distinct real product photograph. The builder uses the same image in article cards, article headers and social metadata, with a visible model label. Keep future headset mappings unique.
-
-`atc-recommendations.json` contains twenty individually written ATC recommendations, the official App Store source, and the ownership disclosure. The builder inserts them into relevant lists and preserves ten entries in top-ten guides. It does not insert the app into technical headset lists. Edit this file when changing app features, compatibility or placements; do not replace the ownership disclosure with a claim of independent review.
+The existing daily publishing workflow remains in place. This change does not create an additional automation or claim all 101 current guides were rewritten; 25 current guides now use curated product-library selections, with the rest retaining their existing editorial ideas.

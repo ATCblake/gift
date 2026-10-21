@@ -1,1 +1,14 @@
-{"name":"pilot-gift-guide","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node test.mjs"},"engines":{"node":">=22"}}
+{
+  "name": "pilot-gift-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node test.mjs",
+    "audit:products": "node scripts/audit-products.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
