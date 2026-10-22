@@ -1,0 +1,44 @@
+{
+  "checked": "2026-10-21",
+  "figma_file": "5Zbx11Z7gme1yHueje5deg",
+  "figma_art_node": "1098:3022",
+  "guide": "best-apps-to-gift-pilots",
+  "sources": [
+    {
+      "label": "ATC: official App Store features and device requirements",
+      "url": "https://apps.apple.com/us/app/atc-live-air-traffic-radio/id6755132266"
+    },
+    {
+      "label": "ForeFlight: how gift certificates work",
+      "url": "https://support.foreflight.com/hc/en-us/articles/203761309-Can-I-purchase-a-ForeFlight-subscription-as-a-gift"
+    },
+    {
+      "label": "Flighty: personal annual gift and redemption window",
+      "url": "https://store.flightyapp.com/products/1-year-flighty-pro"
+    },
+    {
+      "label": "Flightradar24: plans and supported platforms",
+      "url": "https://www.flightradar24.com/premium/"
+    }
+  ],
+  "notes": [
+    "ATC physical card shown in user-supplied design; no public card checkout verified. Do not assert shipping, stock or card pricing.",
+    "Flighty personal annual gift: $59 and redeem within 30 days. Store theme emits both sold-out and add-to-cart text; do not assert availability.",
+    "ForeFlight gift instructions confirm $25 increments; current plan prices not asserted.",
+    "Flightradar24 gift checkout not verified; recommend recipient-managed subscription contribution."
+  ],
+  "images": [
+    {
+      "product": "foreflight",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/b8/0f/e1b80f65-d6f5-8c3f-1ba0-a580c8ea7c01/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "product": "flighty",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/85/cc/1885cc6c-2874-4e20-4178-9f62489a6756/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    },
+    {
+      "product": "flightradar24",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/58/ac/3f58ac28-7308-cc27-d181-3b6ba3f5dd01/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+    }
+  ]
+}

@@ -45,12 +45,12 @@
       "skyhawk",
       "gift-card"
     ],
-    "context": "For a student, the school\u2019s equipment list comes first. These picks focus on modest essentials, an optional listening app and a keepsake for a meaningful milestone.",
+    "context": "For a student, the school’s equipment list comes first. These picks focus on modest essentials, an optional listening app and a keepsake for a meaningful milestone.",
     "updated": "2026-10-21",
     "reasons": {
       "logbook": "A useful first purchase only if the school recommends this format and the student does not already have it.",
       "plotter": "Appropriate for a student learning paper cross-country planning; ask whether it is already in the school kit.",
-      "student-manual": "Buy the instructor-approved edition, not a second syllabus selected on the student\u2019s behalf.",
+      "student-manual": "Buy the instructor-approved edition, not a second syllabus selected on the student’s behalf.",
       "atc": "For a curious student who enjoys listening between lessons; it is not a substitute for instruction."
     },
     "description": "Useful basics, a first-aircraft keepsake, and a few ways to celebrate the person learning to fly."
@@ -110,7 +110,7 @@
       "skyhawk",
       "mustang-model"
     ],
-    "context": "Separate building, playing and collecting before you choose. We identify small-parts and display-only choices so an impressive model is not mistaken for a child\u2019s play toy.",
+    "context": "Separate building, playing and collecting before you choose. We identify small-parts and display-only choices so an impressive model is not mistaken for a child’s play toy.",
     "updated": "2026-10-21",
     "reasons": {},
     "description": "Building projects, playful little jets and models to display. First decide whether the gift is for play or the shelf."
@@ -224,8 +224,8 @@
     "description": "Compare ten over-ear, on-ear and in-ear options. Aircraft compatibility and personal fit come first."
   },
   "headset-budget-for-student-pilots": {
-    "short": "Headset options for a student pilot\u2019s budget",
-    "title": "Headset options for a student pilot\u2019s budget",
+    "short": "Headset options for a student pilot’s budget",
+    "title": "Headset options for a student pilot’s budget",
     "product_ids": [
       "faro-g2",
       "h10-30",
@@ -248,7 +248,7 @@
       "tristar-model",
       "concorde"
     ],
-    "context": "The aircraft and livery matter more than a model\u2019s price. These examples cover a training aircraft, a warbird, a turboprop and classic airliners; check their display footprint.",
+    "context": "The aircraft and livery matter more than a model’s price. These examples cover a training aircraft, a warbird, a turboprop and classic airliners; check their display footprint.",
     "updated": "2026-10-21",
     "reasons": {},
     "description": "Their first trainer, favorite warbird or a classic airliner: choose the aircraft that tells their story."
@@ -279,7 +279,7 @@
       "airbus-grip",
       "atc"
     ],
-    "context": "The recipient\u2019s platform and existing controls determine which hardware makes sense. The Airbus grip needs a separate compatible base; ATC is a separate real-airport listening app, not a simulator integration.",
+    "context": "The recipient’s platform and existing controls determine which hardware makes sense. The Airbus grip needs a separate compatible base; ATC is a separate real-airport listening app, not a simulator integration.",
     "updated": "2026-10-21",
     "reasons": {},
     "description": "Yokes, sticks and an airport-listening app. Check the platform and existing setup before choosing an upgrade."
@@ -297,7 +297,7 @@
       "warhawk-socks",
       "gift-card"
     ],
-    "context": "Choose a compact activity or a digital experience when shelf space is scarce. Miniature building sets still need room for assembly and should match the recipient\u2019s patience for small pieces.",
+    "context": "Choose a compact activity or a digital experience when shelf space is scarce. Miniature building sets still need room for assembly and should match the recipient’s patience for small pieces.",
     "updated": "2026-10-21",
     "reasons": {},
     "description": "Small building projects, pocket-sized accessories and a digital experience for someone whose shelves are already full."
@@ -359,8 +359,8 @@
     "description": "For a day at the airport fence or an evening remembering favorite aircraft. Practical comfort meets personal interests."
   },
   "gifts-for-new-private-pilots": {
-    "short": "Mark a new private pilot\u2019s next chapter",
-    "title": "Mark a new private pilot\u2019s next chapter",
+    "short": "Mark a new private pilot’s next chapter",
+    "title": "Mark a new private pilot’s next chapter",
     "product_ids": [
       "skyhawk",
       "logbook",
@@ -428,7 +428,7 @@
     "context": "These picks split between travel conveniences and interests at home. Choose based on how they want to spend time away from work, rather than assuming they want more professional equipment.",
     "updated": "2026-10-21",
     "reasons": {},
-    "description": "Travel conveniences and things to enjoy at home, chosen for the person\u2019s interests beyond their flying job."
+    "description": "Travel conveniences and things to enjoy at home, chosen for the person’s interests beyond their flying job."
   },
   "pilot-retirement-gifts": {
     "short": "A thoughtful way to mark a flying career",
@@ -456,7 +456,7 @@
     "product_ids": [
       "a30-refresh"
     ],
-    "context": "Replacement cushions are useful only when they fit the exact headset. This guide includes a verified A30 kit; for any other model, ask the pilot for the manufacturer\u2019s part number.",
+    "context": "Replacement cushions are useful only when they fit the exact headset. This guide includes a verified A30 kit; for any other model, ask the pilot for the manufacturer’s part number.",
     "updated": "2026-10-21",
     "reasons": {},
     "description": "Cushions, windscreens and other replacements only help when they fit. Start with the exact headset and part number."
@@ -473,5 +473,94 @@
     "updated": "2026-10-21",
     "reasons": {},
     "description": "Plugs, power, personal fit and return terms: the checks to make before choosing an expensive headset gift."
+  },
+  "best-apps-to-gift-pilots": {
+    "title": "The Best Apps to Gift the Pilot in Your Family",
+    "short": "The Best Apps to Gift the Pilot in Your Family",
+    "description": "Four aviation apps for the pilot in your family, with advice on choosing, gifting and avoiding duplicate subscriptions.",
+    "context": "A little inspiration for the person who always has their head in the clouds. These four apps suit different kinds of aviation obsession—from listening to the tower to planning the next trip.",
+    "product_ids": [
+      "atc",
+      "foreflight",
+      "flighty",
+      "flightradar24"
+    ],
+    "updated": "2026-10-21",
+    "hero": {
+      "src": "/assets/apps-gift-guide.webp",
+      "thumbnail": "/assets/apps-gift-guide-600.webp",
+      "width": 960,
+      "height": 708,
+      "alt": "ATC app on an iPhone beside a silver annual membership card and red gift bow, against a blue sky",
+      "caption": "ATC app and annual membership card, composed in Figma. ATC is our own product; confirm current gift-card availability and terms."
+    },
+    "reasons": {
+      "atc": "For the person who would happily listen to the tower long after the airport visit is over.",
+      "foreflight": "A practical choice when the pilot has already told you this is the app they use.",
+      "flighty": "For the family member who treats every connection like a small logistical project.",
+      "flightradar24": "For the person who cannot hear an airplane overhead without wanting to identify it."
+    },
+    "details": {
+      "atc": {
+        "paragraphs": [
+          "Some aviation gifts are about utility; this one is about staying close to the activity of an airport. ATC pairs airport audio with maps, transcripts and replay features. For someone curious about the conversations behind each arrival and departure, that is a different experience from watching an aircraft icon move across a screen.",
+          "We would choose it for an enthusiastic listener, a plane spotter, or a pilot who enjoys aviation away from work. Start by checking the airports they care about. A familiar training airport or a favorite destination can give the gift a personal connection. This is an interest-led recommendation, not a substitute for flight instruction or operational information."
+        ],
+        "gift": "The artwork shows an ATC annual membership card. Check ATC’s current gift-card availability, delivery and redemption terms before ordering; we have not verified a public gift-card checkout. An App Store subscription on your own account should not be treated as a transferable gift.",
+        "sources": [
+          {
+            "label": "ATC app details",
+            "url": "https://apps.apple.com/us/app/atc-live-air-traffic-radio/id6755132266"
+          }
+        ]
+      },
+      "foreflight": {
+        "paragraphs": [
+          "It is hard to surprise a pilot with better flying tools than the ones they have carefully chosen. Paying toward a tool they already rely on is a different proposition. ForeFlight brings planning, charts, weather and logging into an electronic flight bag, so this is the most practical direction here for an existing user.",
+          "For a student pilot, ask what their instructor or school recommends before choosing a plan. For an experienced pilot, an exact renewal contribution is often a better fit than an unsolicited upgrade. Treat the pilot’s preferences as the shopping list: their region, flying and equipment matter more than which tier sounds impressive."
+        ],
+        "gift": "ForeFlight offers certificates in plan-sized amounts or $25 increments. The certificate is emailed to the buyer to print or forward. The recipient redeems it toward a subscription; ForeFlight says a credit card is required even when the certificate covers the full amount.",
+        "sources": [
+          {
+            "label": "ForeFlight gift instructions",
+            "url": "https://support.foreflight.com/hc/en-us/articles/203761309-Can-I-purchase-a-ForeFlight-subscription-as-a-gift"
+          },
+          {
+            "label": "ForeFlight features",
+            "url": "https://www.foreflight.com/campaigns/gift-certificates/"
+          }
+        ]
+      },
+      "flighty": {
+        "paragraphs": [
+          "There is an important difference between loving airplanes and loving the logistics of getting somewhere. Flighty is the pick for the second part: the person checking the incoming aircraft, the connection, and what a delay means for the rest of the day. Pro adds travel-focused tools such as delay alerts and connection assistance.",
+          "That can make it relevant to a pilot who travels as a passenger, or to their partner who organizes family trips. If your recipient rarely flies commercially, start with the free app before paying for a year. A subscription should match a habit they already have, not one you hope they will develop."
+        ],
+        "gift": "Flighty lists its personal annual gift at $59, delivered by email, with redemption required within 30 days. Check availability and the exact plan before checkout. Family and lifetime products have separate prices and terms; do not assume this annual offer covers them.",
+        "sources": [
+          {
+            "label": "Annual gift price and terms",
+            "url": "https://store.flightyapp.com/products/1-year-flighty-pro"
+          },
+          {
+            "label": "Flighty Pro features",
+            "url": "https://flighty.com/help/why-subscribe"
+          }
+        ]
+      },
+      "flightradar24": {
+        "paragraphs": [
+          "A plane-spotting app turns an ordinary moment into a small investigation: which aircraft is that, where did it come from, and where is it going? Flightradar24 is the direction we would explore for someone who enjoys those questions. Its free version is a sensible place to start before deciding whether a paid tier adds enough.",
+          "For a recipient who already uses it, ask which feature they wish they had. Longer flight history may be useful to one person; another may be perfectly happy with the free map. The gift works best as a thoughtful contribution to their hobby, rather than a subscription chosen because it has the longest feature list."
+        ],
+        "gift": "We did not verify a dedicated gift-certificate option. Offer to cover their chosen plan and let them purchase through their own account. Confirm the billing period, renewal settings and current price together; do not create a second account just to preserve the surprise.",
+        "sources": [
+          {
+            "label": "Flightradar24 plans and account compatibility",
+            "url": "https://www.flightradar24.com/premium/"
+          }
+        ]
+      }
+    }
   }
 }

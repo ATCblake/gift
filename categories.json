@@ -97,5 +97,11 @@
     "name": "Flight simulators",
     "nav": "FLIGHT SIMS",
     "description": "Simulator gift ideas, beginner setups, small-space solutions and compatibility checklists for hobby flying at home."
+  },
+  {
+    "slug": "apps-tech",
+    "name": "Apps & tech",
+    "nav": "APPS & TECH",
+    "description": "Aviation apps worth considering as gifts, with practical advice on devices, subscriptions and redemption."
   }
 ]

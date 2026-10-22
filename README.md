@@ -120,3 +120,7 @@ The existing daily publishing workflow remains in place. This change does not cr
 The 21 collection covers in `research/collection-artwork.json` are designed in [Marketing Collateral](https://www.figma.com/design/5Zbx11Z7gme1yHueje5deg/Marketing-Collateral?node-id=1063-1827). The page holds 28 original product image layers and editable compositions. The manifest records source URLs, product IDs, crop bounds, Figma node IDs and local exports. Re-export changed frames at 1200×800, then encode 1200px and 600px WebP assets under `dist/assets/collections/`. Raw PNG exports are local working files and excluded from git.
 
 Product CTAs remain ordinary external links, styled as accessible buttons. Displayed prices and check dates are separate from the action. Guide cards use an outlined Read the guide button within the single card link.
+
+### Featured apps guide
+
+`best-apps-to-gift-pilots` is the primary homepage story from October 21, 2026. Its article copy lives in `content.json`; per-app gifting notes, sources and the Figma artwork reference live in `guide-products.json`. The shared app records and official icon sources are in `product-library.json`. `research/apps-gift-guide.json` records verification limitations. Recheck gift redemption windows and the ATC public gift storefront before updating purchase instructions.

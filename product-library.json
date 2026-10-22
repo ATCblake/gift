@@ -1952,6 +1952,97 @@
       "image": "https://apps.apple.com/us/app/atc-live-air-traffic-radio/id6755132266",
       "disclosure": "Our app: Pilot Gift Guide is produced by the team behind ATC. This is a recommendation of our own product.",
       "evidence": "Official App Store listing; this is our own app."
+    },
+    {
+      "id": "foreflight",
+      "name": "ForeFlight Mobile",
+      "intended_recipient": "The pilot who already plans flights on an iPad",
+      "source": "https://www.foreflight.com/campaigns/gift-certificates/",
+      "url": "https://www.foreflight.com/buy/gift",
+      "price": null,
+      "price_note": "Gift certificates in $25 increments",
+      "strengths": [
+        "Combines flight planning, weather, electronic charts and a logbook. A contribution toward an existing subscription can be more useful than a new piece of equipment."
+      ],
+      "limitations": [
+        "The right plan depends on the pilot’s flying and region. Do not choose a new cockpit app without asking them."
+      ],
+      "compatibility": "iPhone and iPad; confirm the current device requirements and their existing ForeFlight plan.",
+      "cta_label": "Explore ForeFlight gifts",
+      "model": "ForeFlight Mobile",
+      "category": "Apps & tech",
+      "type": "app",
+      "recipients": [
+        "pilot",
+        "avgeek"
+      ],
+      "currency": "USD",
+      "price_checked_at": "2026-10-21",
+      "local_image": "/assets/foreflight-icon.png",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/b8/0f/e1b80f65-d6f5-8c3f-1ba0-a580c8ea7c01/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg",
+      "availability": "check_current_offer",
+      "evidence": "Official developer pages and Apple App Store listing; not hands-on tested."
+    },
+    {
+      "id": "flighty",
+      "name": "Flighty Pro",
+      "intended_recipient": "The frequent flyer and airport-connection planner",
+      "source": "https://flighty.com/help/why-subscribe",
+      "url": "https://store.flightyapp.com/products/1-year-flighty-pro",
+      "price": 59,
+      "price_note": "Personal annual gift card",
+      "variant": "Personal annual gift card",
+      "strengths": [
+        "Brings together delay alerts, incoming-aircraft tracking, connection assistance and flight history. It is geared toward following airline trips."
+      ],
+      "limitations": [
+        "An Apple-device gift, not an Android subscription. The annual gift listing says to redeem within 30 days; verify the selected product’s terms before buying ahead."
+      ],
+      "compatibility": "Check their Apple device and OS against the current App Store listing, and whether they already have Pro.",
+      "cta_label": "See Flighty gift options",
+      "model": "Flighty Pro",
+      "category": "Apps & tech",
+      "type": "app",
+      "recipients": [
+        "pilot",
+        "avgeek"
+      ],
+      "currency": "USD",
+      "price_checked_at": "2026-10-21",
+      "local_image": "/assets/flighty-icon.png",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/85/cc/1885cc6c-2874-4e20-4178-9f62489a6756/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+      "availability": "check_current_offer",
+      "evidence": "Official developer pages and Apple App Store listing; not hands-on tested."
+    },
+    {
+      "id": "flightradar24",
+      "name": "Flightradar24",
+      "intended_recipient": "The plane spotter who always asks “Where is that going?”",
+      "source": "https://www.flightradar24.com/premium/",
+      "url": "https://www.flightradar24.com/premium/",
+      "price": null,
+      "price_note": "Free tier; paid plan prices vary",
+      "strengths": [
+        "A flight-tracking map with aircraft and route details. Paid Silver and Gold plans add features such as longer flight history; compare the tiers for the features they actually want."
+      ],
+      "limitations": [
+        "We did not verify a dedicated gift-certificate checkout. Arrange a contribution toward their own subscription instead of buying it on your account. Coverage varies."
+      ],
+      "compatibility": "Available on the web, iOS and Android. A subscription works across platforms with the same account.",
+      "cta_label": "Compare Flightradar24 plans",
+      "model": "Flightradar24",
+      "category": "Apps & tech",
+      "type": "app",
+      "recipients": [
+        "pilot",
+        "avgeek"
+      ],
+      "currency": "USD",
+      "price_checked_at": "2026-10-21",
+      "local_image": "/assets/flightradar24-icon.png",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/58/ac/3f58ac28-7308-cc27-d181-3b6ba3f5dd01/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "availability": "check_current_offer",
+      "evidence": "Official developer pages and Apple App Store listing; not hands-on tested."
     }
   ]
 }
